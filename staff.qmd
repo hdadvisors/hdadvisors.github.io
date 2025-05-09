@@ -1,5 +1,67 @@
 ---
-title: "staff"
-format: html
+title: "Team with Larger Images"
 ---
 
+## Leadership Team (With Larger Circular Images)
+
+::: {.container}
+::: {.row}
+::: {.col-md-6}
+::: {.listing-box}
+![Erica Sims](images/team/erica.jpg){.listing-box-image-circular}
+
+### Erica Sims {.listing-box-title}
+
+::: {.listing-box-subtitle}
+President
+:::
+
+::: {.listing-box-body}
+You should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.
+:::
+:::
+:::
+
+::: {.col-md-6}
+::: {.listing-box}
+![Jonathan Knopf](images/team/jonathan.jpg){.listing-box-image-circular}
+
+### Jonathan Knopf {.listing-box-title}
+
+::: {.listing-box-subtitle}
+Vice President
+:::
+
+::: {.listing-box-body}
+You should talk to Jonathan if you need help with housing policy, data, or more.
+:::
+:::
+:::
+:::
+:::
+
+## Team Members (With Taller Header Images)
+
+::: {.container}
+::: {.row}
+::: {.col-md-4}
+::: {.listing-box .has-image}
+::: {.listing-box-image-container}
+![Team Member 3](images/team/erica.jpg){.listing-box-image}
+:::
+
+::: {.listing-box-content}
+### Team Member Name {.listing-box-title}
+
+::: {.listing-box-subtitle}
+Position
+:::
+
+::: {.listing-box-body}
+Description of what this team member does and their areas of expertise.
+:::
+:::
+:::
+:::
+:::
+:::

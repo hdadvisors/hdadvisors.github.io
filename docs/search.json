@@ -173,5 +173,61 @@
     "title": "HDAdvisors Style Guide",
     "section": "Using This Style Guide",
     "text": "Using This Style Guide\nThis page demonstrates all the custom styles available in the HDAdvisors Quarto website. You can copy and paste these elements into your own pages, adapting them as needed. Refer to the class names in each section to understand how to apply these styles to your content."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Who We Are",
+    "section": "",
+    "text": "President\n        You should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\n      \n    \n    \n    \n      \n        \n        Vice President\n        You should talk to Jonathan if you need help with housing policy, data, or more."
+  },
+  {
+    "objectID": "about.html#add-more-staff",
+    "href": "about.html#add-more-staff",
+    "title": "Who We Are",
+    "section": "Add More Staff",
+    "text": "Add More Staff\n\n  \n    \n      \n        Staff Member 3\n        Position\n        Description of what this staff member does and their areas of expertise.\n      \n    \n    \n    \n      \n        Staff Member 4\n        Position\n        Description of what this staff member does and their areas of expertise.\n      \n    \n    \n    \n      \n        Staff Member 5\n        Position\n        Description of what this staff member does and their areas of expertise."
+  },
+  {
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "Team with Larger Images",
+    "section": "",
+    "text": "Erica Sims\n\n\n\n\n\nPresident\n\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\n\n\n\n\n\n\n\n\n\nJonathan Knopf\n\n\n\n\n\nVice President\n\n\nYou should talk to Jonathan if you need help with housing policy, data, or more."
+  },
+  {
+    "objectID": "staff.html#leadership-team-cards-with-circular-images",
+    "href": "staff.html#leadership-team-cards-with-circular-images",
+    "title": "Our Team",
+    "section": "",
+    "text": "President\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\n\n\n\n\n\n\n\n\nJonathan Knopf\n\n\n\n\n\nVice President\n\nYou should talk to Jonathan if you need help with housing policy, data, or more."
+  },
+  {
+    "objectID": "staff.html#team-members-cards-with-header-images",
+    "href": "staff.html#team-members-cards-with-header-images",
+    "title": "Our Team",
+    "section": "Team Members (Cards with Header Images)",
+    "text": "Team Members (Cards with Header Images)\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\nTeam Member Name\n\nPosition\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\nTeam Member 4\n\n\n\n\nTeam Member Name\n\nPosition\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\nTeam Member 5\n\n\n\n\nTeam Member Name\n\nPosition\n\nDescription of what this team member does and their areas of expertise."
+  },
+  {
+    "objectID": "staff.html#project-cards-cards-with-images-and-buttons",
+    "href": "staff.html#project-cards-cards-with-images-and-buttons",
+    "title": "Our Team",
+    "section": "Project Cards (Cards with Images and Buttons)",
+    "text": "Project Cards (Cards with Images and Buttons)\n\n\n\n\n\n\n\n\nProject 1\n\n\n\n\nHousing Analysis Project\nA brief description of this housing analysis project and its impact.\nLearn More\n\n\n\n\n\n\n\n\n\nProject 2\n\n\n\n\nCommunity Development\nA brief description of this community development project and its impact.\nView Project\n\n\n\n\n\n\n\n\n\nProject 3\n\n\n\n\nPolicy Implementation\nA brief description of this policy implementation project and its impact.\nCase Study"
+  },
+  {
+    "objectID": "staff.html#leadership-team-with-larger-circular-images",
+    "href": "staff.html#leadership-team-with-larger-circular-images",
+    "title": "Team with Larger Images",
+    "section": "",
+    "text": "Erica Sims\n\n\n\n\n\nPresident\n\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\n\n\n\n\n\n\n\n\n\nJonathan Knopf\n\n\n\n\n\nVice President\n\n\nYou should talk to Jonathan if you need help with housing policy, data, or more."
+  },
+  {
+    "objectID": "staff.html#team-members-with-taller-header-images",
+    "href": "staff.html#team-members-with-taller-header-images",
+    "title": "Team with Larger Images",
+    "section": "Team Members (With Taller Header Images)",
+    "text": "Team Members (With Taller Header Images)\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\nTeam Member Name\n\nPosition\n\n\nDescription of what this team member does and their areas of expertise."
   }
 ]
