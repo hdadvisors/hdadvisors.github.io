@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nThis is a website for HDAdvisors, an affordable housing consulting organization. The website is built using Quarto, a publishing system that allows for embedding R, Python, and other executable code with Markdown.\n\n\n\n\nRender the website: quarto render\n\nThis compiles all .qmd files to HTML in the docs/ directory\nThe output directory is configured in _quarto.yml\n\nPreview the website locally: quarto preview\n\nThis starts a local server and automatically refreshes when changes are made\n\nCreate a new page:\n\nCreate a new .qmd file in the root directory\nAdd the page to the navbar in _quarto.yml if needed\n\n\n\n\n\n\nTechnology Stack:\n\nQuarto for static site generation\nR/RStudio as the development environment\nGitHub Pages for hosting (using the docs/ directory)\n\nContent Structure:\n\nEach page is defined by a .qmd file in the root directory\nThe site configuration is in _quarto.yml\nThe site is styled using the Cosmo theme with custom CSS in styles.css\n\nFile Organization:\n\n.qmd files: Source content files with Markdown and optional executable code blocks\ndocs/: Generated HTML site (don’t edit directly)\n_quarto.yml: Site configuration (navigation, theme, output settings)"
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This is a website for HDAdvisors, an affordable housing consulting organization. The website is built using Quarto, a publishing system that allows for embedding R, Python, and other executable code with Markdown."
+  },
+  {
+    "objectID": "CLAUDE.html#build-and-development-commands",
+    "href": "CLAUDE.html#build-and-development-commands",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Render the website: quarto render\n\nThis compiles all .qmd files to HTML in the docs/ directory\nThe output directory is configured in _quarto.yml\n\nPreview the website locally: quarto preview\n\nThis starts a local server and automatically refreshes when changes are made\n\nCreate a new page:\n\nCreate a new .qmd file in the root directory\nAdd the page to the navbar in _quarto.yml if needed"
+  },
+  {
+    "objectID": "CLAUDE.html#architecture",
+    "href": "CLAUDE.html#architecture",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Technology Stack:\n\nQuarto for static site generation\nR/RStudio as the development environment\nGitHub Pages for hosting (using the docs/ directory)\n\nContent Structure:\n\nEach page is defined by a .qmd file in the root directory\nThe site configuration is in _quarto.yml\nThe site is styled using the Cosmo theme with custom CSS in styles.css\n\nFile Organization:\n\n.qmd files: Source content files with Markdown and optional executable code blocks\ndocs/: Generated HTML site (don’t edit directly)\n_quarto.yml: Site configuration (navigation, theme, output settings)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HDAdvisors Style Guide",
+    "section": "",
+    "text": "Note\n\n\n\nClass: .richmond-map-hero\nFull-width section with the Richmond map background.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSection: Background Colors\nAvailable background color classes: .blue-background, .green-background, .yellow-background, .coral-background, and .sand-background."
+  },
+  {
+    "objectID": "index.html#hero-sections",
+    "href": "index.html#hero-sections",
+    "title": "HDAdvisors Style Guide",
+    "section": "",
+    "text": "Note\n\n\n\nClass: .richmond-map-hero\nFull-width section with the Richmond map background.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSection: Background Colors\nAvailable background color classes: .blue-background, .green-background, .yellow-background, .coral-background, and .sand-background."
+  },
+  {
+    "objectID": "index.html#blue-background",
+    "href": "index.html#blue-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Blue Background",
+    "text": "Blue Background\nClass: .blue-background"
+  },
+  {
+    "objectID": "index.html#green-background",
+    "href": "index.html#green-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Green Background",
+    "text": "Green Background\nClass: .green-background"
+  },
+  {
+    "objectID": "index.html#yellow-background",
+    "href": "index.html#yellow-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Yellow Background",
+    "text": "Yellow Background\nClass: .yellow-background"
+  },
+  {
+    "objectID": "index.html#coral-background",
+    "href": "index.html#coral-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Coral Background",
+    "text": "Coral Background\nClass: .coral-background"
+  },
+  {
+    "objectID": "index.html#sand-background",
+    "href": "index.html#sand-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Sand Background",
+    "text": "Sand Background\nClass: .sand-background"
+  },
+  {
+    "objectID": "index.html#map-background",
+    "href": "index.html#map-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Map Background",
+    "text": "Map Background\nClass: .map-background"
+  },
+  {
+    "objectID": "index.html#typography",
+    "href": "index.html#typography",
+    "title": "HDAdvisors Style Guide",
+    "section": "Typography",
+    "text": "Typography\n\n\n\n\n\n\nNote\n\n\n\nSection: Typography\nFont families and text styles from the HDAdvisors brand.\n\n\nHeadings"
+  },
+  {
+    "objectID": "index.html#heading-2-roboto-slab-regular",
+    "href": "index.html#heading-2-roboto-slab-regular",
+    "title": "HDAdvisors Style Guide",
+    "section": "Heading 2 (Roboto Slab Regular)",
+    "text": "Heading 2 (Roboto Slab Regular)\nHeading 3 (Roboto Slab Regular)\nHeading 4 (Roboto Slab Light)\nHeading 5 (Roboto Slab Light)\nHeading 6 (Roboto Slab Light)"
+  },
+  {
+    "objectID": "index.html#content-containers",
+    "href": "index.html#content-containers",
+    "title": "HDAdvisors Style Guide",
+    "section": "Content Containers",
+    "text": "Content Containers\n\n\n\n\n\n\nNote\n\n\n\nClass: .welcome\nContainer for welcome section with centered content.\n\n\n\n\n\nWelcome to HDAdvisors\n\n\nThis is an example of the welcome container with welcome text styling. It’s designed to provide an engaging introduction to your website.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nClass: .container-flush\nFull-width container without margins."
+  },
+  {
+    "objectID": "index.html#full-width-container",
+    "href": "index.html#full-width-container",
+    "title": "HDAdvisors Style Guide",
+    "section": "Full Width Container",
+    "text": "Full Width Container\nThis container extends to the full width of the viewport without any margins."
+  },
+  {
+    "objectID": "index.html#cards-and-listing-styles",
+    "href": "index.html#cards-and-listing-styles",
+    "title": "HDAdvisors Style Guide",
+    "section": "Cards and Listing Styles",
+    "text": "Cards and Listing Styles\n\n\n\n\n\n\nNote\n\n\n\nClass: .listing-box\nCard-style containers for content listings.\n\n\n\n\n\n\n\nCard Title\n\n\nSubtitle or category\n\n\nThis is an example of a listing box card. Hover over me to see the hover effect with subtle shadow.\n\n\n\n\n\n\nResearch Project\n\n\nHousing Analysis\n\n\nCards are great for showcasing projects, team members, or services offered by HDAdvisors.\n\n\n\n\n\n\nPublication Card\n\n\nPolicy Brief\n\n\nEach card has a consistent style with hover effects and maintains equal height in a row."
+  },
+  {
+    "objectID": "index.html#publication-styling",
+    "href": "index.html#publication-styling",
+    "title": "HDAdvisors Style Guide",
+    "section": "Publication Styling",
+    "text": "Publication Styling\n\n\n\n\n\n\nNote\n\n\n\nClasses: .listing-pub-title, .listing-pub-author, .listing-pub-journal, .listing-pub-url\nSpecial styles for formatting publication listings.\n\n\n\n\n\nAffordable Housing Trends in Urban Centers\n\n\nSmith, J., Johnson, A., & Williams, M.\n\n\nJournal of Urban Housing, 42(3), 78-92\n\n\nhttps://example.com/publication\n\n\n\n\nPolicy Impact Assessment: Inclusionary Zoning\n\n\nGarcia, R. & Thompson, K.\n\n\nHousing Policy Review, 15(2), 112-128\n\n\nhttps://example.com/publication2"
+  },
+  {
+    "objectID": "index.html#data-visualization-components",
+    "href": "index.html#data-visualization-components",
+    "title": "HDAdvisors Style Guide",
+    "section": "Data Visualization Components",
+    "text": "Data Visualization Components\n\n\n\n\n\n\nNote\n\n\n\nClasses: .viz-container, .viz-title, .viz-subtitle, .viz-footnote\nCustom styling for data visualization sections.\n\n\n\n\n\nAffordable Housing Units by Neighborhood\n\n\nRichmond Metropolitan Area, 2023-2024\n\n\n\n[Visualization Placeholder]\n\n\nSource: HDAdvisors analysis of regional housing data, 2024"
+  },
+  {
+    "objectID": "index.html#custom-color-labels",
+    "href": "index.html#custom-color-labels",
+    "title": "HDAdvisors Style Guide",
+    "section": "Custom Color Labels",
+    "text": "Custom Color Labels\n\n\n\n\n\n\nNote\n\n\n\nClasses: .affordability-high, .affordability-medium, .affordability-low\nSpecial color-coded text for affordability indicators.\n\n\n\n\nHousing affordability in Richmond neighborhoods ranges from High Affordability to Medium Affordability to Low Affordability depending on location and housing type."
+  },
+  {
+    "objectID": "index.html#buttons",
+    "href": "index.html#buttons",
+    "title": "HDAdvisors Style Guide",
+    "section": "Buttons",
+    "text": "Buttons\n\n\n\n\n\n\nNote\n\n\n\nClasses: .btn-primary, .btn-secondary, .btn-accent\nCustom-styled buttons using HDAdvisors brand colors.\n\n\n\n\nPrimary Button\n\n\nSecondary Button\n\n\nAccent Button"
+  },
+  {
+    "objectID": "index.html#table-styling",
+    "href": "index.html#table-styling",
+    "title": "HDAdvisors Style Guide",
+    "section": "Table Styling",
+    "text": "Table Styling\n\n\n\n\n\n\nNote\n\n\n\nClasses: .table, .table-striped, .table-hover\nCustom table styling for data presentation.\n\n\n\n\n\n\nNeighborhood\n\n\nAffordable Units\n\n\nMarket Rate Units\n\n\nAffordability Index\n\n\n\n\n\nDowntown\n\n\n450\n\n\n1,200\n\n\nLow\n\n\n\n\nNorthside\n\n\n650\n\n\n850\n\n\nMedium\n\n\n\n\nSouthside\n\n\n890\n\n\n760\n\n\nHigh\n\n\n\n\nWest End\n\n\n220\n\n\n1,450\n\n\nLow"
+  },
+  {
+    "objectID": "index.html#responsive-layouts",
+    "href": "index.html#responsive-layouts",
+    "title": "HDAdvisors Style Guide",
+    "section": "Responsive Layouts",
+    "text": "Responsive Layouts\n\n\n\n\n\n\nNote\n\n\n\nResponsive Design Features\nDemonstration of how the layout adapts to different screen sizes.\n\n\n\n\n\n\n\nColumn 1\n\n\nThis layout uses Bootstrap responsive grid with HDAdvisors custom styling.\n\n\n\n\n\n\nColumn 2\n\n\nOn mobile, these will stack. On medium screens, they’ll be 2x2.\n\n\n\n\n\n\nColumn 3\n\n\nOn large screens, all four columns will be displayed in one row.\n\n\n\n\n\n\nColumn 4\n\n\nResize your browser window to see how the responsive layout works."
+  },
+  {
+    "objectID": "index.html#integration-with-r-visualizations",
+    "href": "index.html#integration-with-r-visualizations",
+    "title": "HDAdvisors Style Guide",
+    "section": "Integration with R Visualizations",
+    "text": "Integration with R Visualizations\n\n\n\n\n\n\nNote\n\n\n\nR Integration Example\nSample showing how to pair R code with the custom styling.\n\n\n\n\n\nSample R Visualization\n\n\nUsing HDAdvisors custom styles with R plots\n\n\nNote: This is a placeholder. Uncomment the R code to generate an actual visualization."
+  },
+  {
+    "objectID": "index.html#using-this-style-guide",
+    "href": "index.html#using-this-style-guide",
+    "title": "HDAdvisors Style Guide",
+    "section": "Using This Style Guide",
+    "text": "Using This Style Guide\nThis page demonstrates all the custom styles available in the HDAdvisors Quarto website. You can copy and paste these elements into your own pages, adapting them as needed. Refer to the class names in each section to understand how to apply these styles to your content."
+  }
+]

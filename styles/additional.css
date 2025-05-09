@@ -1,0 +1,61 @@
+/* Additional CSS tweaks that don't require SCSS compilation */
+
+/* Fix for the gap between header and hero image */
+body {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  
+  /* Remove padding that Quarto may add to certain containers */
+  .quarto-title-banner {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
+  /* Custom styles for the navbar that are easier to add via CSS than SCSS */
+  .navbar {
+    box-shadow: none !important;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  /* Make the nav links align perfectly with the logo */
+  .navbar .navbar-nav-scroll {
+    height: auto !important;
+  }
+  
+  .navbar-nav .nav-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Fix for the hero map image to ensure no gap */
+  .richmond-map-hero {
+    margin-top: -1px; /* Remove any tiny gap caused by browser rendering */
+  }
+  
+  /* Make buttons branded */
+  .btn {
+    border-radius: 4px;
+    font-family: 'Roboto Slab', Georgia, serif;
+  }
+  
+  /* Override any Quarto or Bootstrap defaults that interfere with your design */
+  .container-xl, .container-xxl {
+    max-width: 1200px; /* Larger than your theme default for more breathing room when needed */
+  }
+  
+  /* Style fixes for mobile devices */
+  @media (max-width: 767.98px) {
+    .navbar-brand img {
+      max-height: 40px; /* Smaller logo on mobile */
+    }
+    
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
