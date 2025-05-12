@@ -55,12 +55,12 @@ h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0 !important; /* Remove margin at bottom */
 }
 
-/* Remove gap between navbar and content */
+/* Create space between navbar and content */
 .navbar + .quarto-title-banner,
 .navbar + .quarto-page-banner,
 .navbar + main,
 .navbar + div {
-  margin-top: 0 !important;
+  margin-top: 1rem !important;
   padding-top: 0 !important;
 }
 

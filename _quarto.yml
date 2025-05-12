@@ -31,20 +31,38 @@ website:
       - text: Home
         href: index.qmd
       - text: About
-        href: about.qmd
+        menu:
+          - href: about.qmd
+          - href: staff.qmd
       - text: Services
         menu:
           - text: Overview
             href: services.qmd
-      - text: Staff
-        href: staff.qmd
+      - text: Blog
+        href: blog/index.qmd
     right:
+      - icon: rss
+        href: blog/index.xml
       - icon: envelope
         href: "mailto:admin@hdadvisors.net"
       - icon: linkedin
         href: https://www.linkedin.com/company/hdadvisors
       - icon: github
         href: https://github.com/hdadvisors/
+# RSS feed configuration
+feed:
+  title: "Housing Starts"
+  description: "Insights on affordable housing, policy research, and data visualization"
+  categories:
+    - affordable housing
+    - policy research
+    - data visualization
+    - Richmond
+    - Virginia
+  items: 20
+  language: en-US
+  image: "images/hda-logo-rgb.png"
+  copyright: "© 2025 HDAdvisors"
 
 format:
   html:

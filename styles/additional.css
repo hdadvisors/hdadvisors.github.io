@@ -2,9 +2,9 @@
 
 /* Fix for the gap between header and hero image */
 body {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
+  padding-top: 80px !important; /* Add space for fixed navbar */
+  margin-top: 0 !important;
+}
   
   /* Remove padding that Quarto may add to certain containers */
   .quarto-title-banner {
@@ -58,4 +58,12 @@ body {
     h2 {
       font-size: 1.5rem;
     }
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
   }

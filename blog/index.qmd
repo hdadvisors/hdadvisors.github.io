@@ -1,0 +1,13 @@
+---
+title: "Housing Starts"
+subtitle: "Insights on affordable housing, policy research, and data visualization"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+page-layout: full
+---
