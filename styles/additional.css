@@ -460,3 +460,72 @@ body {
     max-width: 1000px;
   }
 }
+
+/* Fix for text appearing behind overlay */
+.banner-text {
+  position: relative;
+  z-index: 10; /* Higher than the overlay z-index */
+  color: white; /* Ensure text is visible */
+}
+
+/* Adjust the overlay z-index */
+.overlay-brand::before,
+.overlay-dark::before,
+.overlay-light::before,
+.overlay-coral::before,
+.overlay-green::before,
+.overlay-sand::before {
+  z-index: 5; /* Lower than the text z-index */
+}
+
+/* Also ensure any headings in the banner text are visible */
+.banner-text h1,
+.banner-text h2,
+.banner-text h3,
+.banner-text h4,
+.banner-text h5,
+.banner-text h6,
+.banner-text p {
+  position: relative;
+  z-index: 10;
+}
+
+/* Additional fix for text-light class */
+.text-light {
+  color: white !important;
+  position: relative;
+  z-index: 10;
+}
+
+/* Full-width banner (spans entire viewport width) */
+.banner-fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: none;
+}
+
+/* Apply proper sizing to banner elements */
+.banner-fullwidth .banner-image {
+  width: 100%;
+}
+
+/* Handle potential overflow issues */
+body {
+  overflow-x: hidden; /* Prevents horizontal scrollbar */
+}
+
+/* Ensure content after the banner flows normally */
+.banner-fullwidth + * {
+  margin-top: 1rem;
+}
+
+/* Make banner text more visible on wider screens */
+@media (min-width: 1200px) {
+  .banner-fullwidth .banner-text {
+    max-width: 1000px;
+  }
+}

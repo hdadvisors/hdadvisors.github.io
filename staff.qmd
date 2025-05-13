@@ -1,11 +1,17 @@
 ---
-title: "Who We Are"
 format: 
   html:
     page-layout: full
 ---
 
-We are based in Richmond, Virginia.
+::: {.banner-fullwidth .banner-image}
+::: {.banner-image .banner-md .overlay-brand .text-right style="background-image: url('images/rvabanner_2.JPG');"}
+::: {.banner-text}
+## Who We Are {.text-light}
+:::
+:::
+:::
+
 
 ::: {.container}
 ::: {.row}
