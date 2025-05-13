@@ -362,6 +362,42 @@ Sample showing how to pair R code with the custom styling.
 </div>
 :::
 
+::: {.banner-container}
+::: {.banner-image .banner-lg style="background-image: url('images/richmond-skyline.jpg');"}
+::: {.banner-text}
+# Richmond Housing Analysis {.welcome-headline .text-light}
+Comprehensive data visualization of housing trends {.welcome-subheadline .text-light}
+:::
+:::
+:::
+
+::: {.banner-container}
+::: {.banner-image .banner-md .overlay-dark .text-right style="background-image: url('images/neighborhood-map.jpg');"}
+::: {.banner-text}
+## Neighborhood Demographics {.text-light}
+Analyzing population trends across Richmond communities {.text-light}
+:::
+:::
+:::
+
+::: {.banner-container}
+::: {.banner-image .banner-sm .overlay-light style="background-image: url('images/data-chart.jpg');"}
+::: {.banner-text}
+## Affordable Housing Metrics {.text-dark}
+Key indicators of housing affordability in Virginia {.text-dark}
+:::
+:::
+:::
+
+::: {.banner-container}
+::: {.banner-image .banner-xl .overlay-brand .text-bottom style="background-image: url('images/policy-meeting.jpg');"}
+::: {.banner-text}
+## Policy Impact Framework {.text-light}
+Measuring the effectiveness of housing initiatives {.text-light}
+:::
+:::
+:::
+
 ::: {.container .py-5 .text-center}
 ## Using This Style Guide
 

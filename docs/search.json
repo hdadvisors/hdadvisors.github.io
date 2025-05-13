@@ -140,6 +140,27 @@
     "text": "Integration with R Visualizations\n\n\n\n\n\n\nNote\n\n\n\nR Integration Example\nSample showing how to pair R code with the custom styling.\n\n\n\n\n\nSample R Visualization\n\n\nUsing HDAdvisors custom styles with R plots\n\n\nNote: This is a placeholder. Uncomment the R code to generate an actual visualization."
   },
   {
+    "objectID": "styles.html#neighborhood-demographics",
+    "href": "styles.html#neighborhood-demographics",
+    "title": "HDAdvisors Style Guide",
+    "section": "Neighborhood Demographics",
+    "text": "Neighborhood Demographics\nAnalyzing population trends across Richmond communities {.text-light}"
+  },
+  {
+    "objectID": "styles.html#affordable-housing-metrics",
+    "href": "styles.html#affordable-housing-metrics",
+    "title": "HDAdvisors Style Guide",
+    "section": "Affordable Housing Metrics",
+    "text": "Affordable Housing Metrics\nKey indicators of housing affordability in Virginia {.text-dark}"
+  },
+  {
+    "objectID": "styles.html#policy-impact-framework",
+    "href": "styles.html#policy-impact-framework",
+    "title": "HDAdvisors Style Guide",
+    "section": "Policy Impact Framework",
+    "text": "Policy Impact Framework\nMeasuring the effectiveness of housing initiatives {.text-light}"
+  },
+  {
     "objectID": "styles.html#using-this-style-guide",
     "href": "styles.html#using-this-style-guide",
     "title": "HDAdvisors Style Guide",
@@ -205,9 +226,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Overview",
+    "title": "HDAdvisors",
     "section": "",
-    "text": "About HDAdvisors\n\n\nHDAdvisors (HDA) is a collaboration of experienced community development professionals launched in 2006. HDA provides housing-related consulting services to non-profits, housing authorities, local governments, lenders, and other community development organizations. HDA is led by Erica Sims, who has spent 20 years in affordable development as both a developer and consultant. \nHDA provides feasibility, financial and development consulting services for affordable housing and other community development projects. HDA is unique because its principals have spent decades as the heads of for-profit and non-profit development corporations and policy organizations in multiple states, building new construction and rehabilitation projects for affordable housing.  \nThis experience gives us an intimate knowledge of federal and local housing programs and what “works” and what does not. This development experience enables HDA to understand housing policy from the perspective of a practitioner in the private sector, to assist clients in creating projects that are workable in the real world. Our work includes: ​\n\nCommunity Land Trusts\nData visualization\nDue diligence and project feasibility\nFinancial structuring\nFund development and strategy\nFractional C-suite nonprofit staffing\nHousing needs assessments\nHousing program and policy design, evaluation and implementation\nHousing research\nLand Banks\nNeighborhood and project strategies / Community engagement\nMixed use buildings / Mixed income strategies\nReal estate development planning\nSurvey design and implementation\nTax credit strategies\n\nLow-Income Housing Tax Credits​\nHistoric Tax Credits\nNew Market Tax Credits"
+    "text": "HDAdvisors (HDA) is a collaboration of experienced community development professionals launched in 2006. HDA provides housing-related consulting services to non-profits, housing authorities, local governments, lenders, and other community development organizations. HDA is led by Erica Sims, who has spent 20 years in affordable development as both a developer and consultant.\nHDA provides feasibility, financial and development consulting services for affordable housing and other community development projects. HDA is unique because its principals have spent decades as the heads of for-profit and non-profit development corporations and policy organizations in multiple states, building new construction and rehabilitation projects for affordable housing.\nThis experience gives us an intimate knowledge of federal and local housing programs and what “works” and what does not. This development experience enables HDA to understand housing policy from the perspective of a practitioner in the private sector, to assist clients in creating projects that are workable in the real world. Our work includes: ​"
   },
   {
     "objectID": "blog/posts/2025-05-10/index.html",

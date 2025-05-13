@@ -67,3 +67,129 @@ body {
     left: 0;
     z-index: 1030;
   }
+  
+  /* Full-width banner components */
+.banner-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Banner with background image */
+.banner-image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Height variations */
+.banner-sm {
+  min-height: 200px;
+}
+
+.banner-md {
+  min-height: 300px;
+}
+
+.banner-lg {
+  min-height: 400px;
+}
+
+.banner-xl {
+  min-height: 500px;
+}
+
+/* Text overlay container */
+.banner-text {
+  padding: 2rem;
+  max-width: 800px;
+  width: 90%;
+  z-index: 2;
+}
+
+/* Background overlay for better text readability */
+.overlay-dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.overlay-light::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+}
+
+.overlay-brand::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(68, 92, 169, 0.7); /* Using your brand blue color */
+  z-index: 1;
+}
+
+/* Text positioning */
+.text-left {
+  justify-content: flex-start;
+}
+
+.text-right {
+  justify-content: flex-end;
+}
+
+.text-bottom {
+  align-items: flex-end;
+}
+
+.text-top {
+  align-items: flex-start;
+}
+
+/* Text color options */
+.text-light {
+  color: white;
+}
+
+.text-dark {
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner-image {
+    min-height: 250px;
+  }
+  
+  .banner-lg {
+    min-height: 300px;
+  }
+  
+  .banner-xl {
+    min-height: 350px;
+  }
+  
+  .banner-text {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+}
