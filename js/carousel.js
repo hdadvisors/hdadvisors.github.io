@@ -1,10 +1,4 @@
----
-format: 
-  html:
-    page-layout: full
----
-
-<script>
+// Carousel functionality
 document.addEventListener('DOMContentLoaded', function() {
   const carousels = document.querySelectorAll('.carousel-container');
   
@@ -93,46 +87,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
-</script>
-
-::: {.carousel-container data-interval="6000"}
-::: {.carousel-slides .carousel-height-lg}
-
-::: {.carousel-slide .overlay-brand style="background-image: url('images/stock/financial.jpeg');"}
-::: {.carousel-text .carousel-text-center}
-## We help build organizations {.text-light}
-:::
-:::
-
-::: {.carousel-slide .overlay-green style="background-image: url('images/stock/forum.jpeg');"}
-::: {.carousel-text .carousel-text-right}
-## We help research complex issues {.text-light}
-:::
-:::
-
-::: {.carousel-slide .overlay-coral style="background-image: url('images/stock/construction.jpeg');"}
-::: {.carousel-text .carousel-text-right}
-## We help build affordable housing {.text-light}
-:::
-:::
-
-::: {.carousel-nav}
-::: {.carousel-nav-dot}
-:::
-::: {.carousel-nav-dot}
-:::
-::: {.carousel-nav-dot}
-:::
-:::
-
-::: {.carousel-arrow .carousel-arrow-prev}
-←
-:::
-
-::: {.carousel-arrow .carousel-arrow-next}
-→
-:::
-
-:::
-:::
-

@@ -245,6 +245,13 @@
     "text": "Example R Code\n\nCodelibrary(ggplot2)\nlibrary(dplyr)\n\n# Sample data - replace with your actual data\nhousing_data &lt;- data.frame(\n  year = 2015:2025,\n  median_price = c(220000, 230000, 245000, 260000, 275000, \n                  292000, 325000, 375000, 400000, 410000, 415000)\n)\n\n# Create a visualization\nggplot(housing_data, aes(x = year, y = median_price)) +\n  geom_line(color = \"#2C3E50\", size = 1.2) +\n  geom_point(color = \"#E74C3C\", size = 3) +\n  scale_y_continuous(labels = scales::dollar) +\n  theme_minimal() +\n  labs(\n    title = \"Richmond Area Housing Price Trends\",\n    subtitle = \"Median home prices have nearly doubled over the past decade\",\n    x = \"Year\",\n    y = \"Median Price\"\n  )\n\n\n\nExample visualization"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "←\n\n\n→"
+  },
+  {
     "objectID": "staff/amelie.html#amelie-rives",
     "href": "staff/amelie.html#amelie-rives",
     "title": "HDAdvisors",
