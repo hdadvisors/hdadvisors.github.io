@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
+::: {.carousel-fullwidth}
 ::: {.carousel-container data-interval="6000"}
 ::: {.carousel-slides .carousel-height-lg}
 
@@ -135,4 +135,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 :::
 :::
-
+:::

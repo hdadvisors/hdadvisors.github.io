@@ -431,3 +431,32 @@ body {
     font-size: 16px;
   }
 }
+
+/* Full-width carousel fixes */
+.carousel-fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: none;
+}
+
+/* Ensure the container adjusts properly */
+.quarto-title-block, 
+.quarto-body {
+  overflow-x: hidden; /* Prevents horizontal scrollbar */
+}
+
+/* Apply proper sizing to carousel elements */
+.carousel-fullwidth .carousel-slides {
+  width: 100%;
+}
+
+/* Make carousel text more visible on wider screens */
+@media (min-width: 1200px) {
+  .carousel-fullwidth .carousel-text {
+    max-width: 1000px;
+  }
+}
