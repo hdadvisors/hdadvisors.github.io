@@ -25,7 +25,7 @@ President
 ::: {.listing-box-body}
 You should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.
 
-[Learn more abut Erica here.](./erica.html)
+[Learn more abut Erica here.](./staff/erica.html)
 :::
 :::
 :::
@@ -47,7 +47,7 @@ Vice President
 ::: {.listing-box-body}
 You should talk to Jonathan if you need help with housing policy, data, or more.
 
-[Learn more abut Jonathan here.](./jonathan.html)
+[Learn more abut Jonathan here.](./staff/jonathan.html)
 
 :::
 :::
@@ -70,7 +70,7 @@ Position
 ::: {.listing-box-body}
 You should talk to Eric if you need help with pre-development, housing research, survey design, data, or more.
 
-[Learn more abut Eric here.](./eric.html)
+[Learn more abut Eric here.](./staff/eric.html)
 
 :::
 :::
@@ -97,7 +97,7 @@ Senior Associate
 ::: {.listing-box-body}
 You should talk to Amelie if you need help with housing program design, community land trusts, or more. By the way, it's Amelie like family.
 
-[Learn more abut Amelie here.](./amelie.html)
+[Learn more abut Amelie here.](./staff/amelie.html)
 
 :::
 :::
@@ -120,7 +120,7 @@ Senior Associate
 ::: {.listing-box-body}
 You should talk to Maria if you need help with housing policy, data analysis, real estate development, or more.
 
-[Learn more abut Maria here.](./maria.html)
+[Learn more abut Maria here.](./staff/maria.html)
 
 :::
 :::
@@ -143,7 +143,7 @@ Administrative Assistant
 ::: {.listing-box-body}
 Kendra helps us with managing our schedules, handling communications, entering data, and maintaining our office.
 
-[Learn more abut Kendra here.](./kendra.html)
+[Learn more abut Kendra here.](./staff/kendra.html)
 
 :::
 :::
