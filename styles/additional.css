@@ -4,6 +4,7 @@
 body {
   padding-top: 80px !important; /* Add space for fixed navbar */
   margin-top: 0 !important;
+  overflow-x: hidden !important; /* Prevent horizontal scrolling */
 }
   
   /* Remove padding that Quarto may add to certain containers */
@@ -280,13 +281,15 @@ body {
   }
 }
 
-/* Banner Carousel Styles */
-.carousel-container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+/* Full-width carousel fixes */
+.carousel-fullwidth {
+  width: 100vw;
   position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: none;
 }
 
 .carousel-slides {
@@ -527,6 +530,31 @@ body {
   margin-left: -50vw;
   margin-right: -50vw;
   max-width: none;
+  overflow-x: hidden;
+}
+
+/* Fix for carousel container to prevent overflow issues */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure proper width of carousel slides for full width appearance */
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 /* Ensure the container adjusts properly */
@@ -616,6 +644,15 @@ body {
   }
 }
 
+/* Fix for content under carousel */
+.content-wrapper {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+
 /* Service image specific fixes */
 .service-image-container {
   margin: -20px -20px 15px -20px; /* Extend to edges */
@@ -657,4 +694,118 @@ body {
   .service-image-container {
     height: 180px;
   }
+}
+
+/* ===== NEW CAROUSEL FIXES ===== */
+
+/* Container for the entire carousel section */
+.carousel-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2rem; /* Add space between the carousel and the next section */
+}
+
+/* Container for content after carousel */
+.content-section {
+  position: relative;
+  z-index: 100; /* Higher than any carousel elements */
+  margin-top: 2rem;
+  background-color: white; /* Ensure it has a solid background */
+}
+
+/* Fix for nested carousel-fullwidth */
+.carousel-section .carousel-fullwidth {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Full reset on positioning context for content after carousel */
+.content-section h1, 
+.content-section h2,
+.content-section h3,
+.content-section p {
+  position: relative;
+  z-index: 5;
+}
+
+/* Ensure the fullwidth carousel content doesn't affect layout after it */
+.carousel-fullwidth:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Fix for containment issues - ensure carousel container closes properly */
+.carousel-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Stronger reset for content after carousel */
+.content-section {
+  clear: both;
+  position: relative;
+  display: block;
+}
+
+/* For headings that might be added after the carousel */
+h1.post-carousel, 
+h2.post-carousel,
+h3.post-carousel {
+  margin-top: 2rem;
+  position: relative;
+  z-index: 100;
+  clear: both;
+}
+
+/* Add specific class for gradient text headings */
+.gradient-text {
+  background: linear-gradient(
+    45deg,
+    #e9ab3f,
+    #445ca9,
+    #445ca9,
+    #8baeaa,
+    #e76f52,
+    #445ca9,
+    #e9ab3f
+  );
+  background-size: 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 30s ease-in-out infinite;
+  -moz-animation: animated_text 30s ease-in-out infinite;
+  -webkit-animation: animated_text 30s ease-in-out infinite;
+  
+  /* Add these properties for proper display */
+  display: inline-block;
+  position: relative;
+  z-index: 100;
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0px 50%;
+  }
+}
+
+/* Add these new classes to your existing CSS */
+.carousel-container-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-after-carousel {
+  position: relative;
+  clear: both;
+  width: 100%;
 }
