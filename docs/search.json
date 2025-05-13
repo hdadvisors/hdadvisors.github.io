@@ -1,5 +1,173 @@
 [
   {
+    "objectID": "styles.html",
+    "href": "styles.html",
+    "title": "HDAdvisors Style Guide",
+    "section": "",
+    "text": "Note\n\n\n\nClass: .richmond-map-hero\nFull-width section with the Richmond map background.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSection: Background Colors\nAvailable background color classes: .blue-background, .green-background, .yellow-background, .coral-background, and .sand-background."
+  },
+  {
+    "objectID": "styles.html#hero-sections",
+    "href": "styles.html#hero-sections",
+    "title": "HDAdvisors Style Guide",
+    "section": "",
+    "text": "Note\n\n\n\nClass: .richmond-map-hero\nFull-width section with the Richmond map background.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSection: Background Colors\nAvailable background color classes: .blue-background, .green-background, .yellow-background, .coral-background, and .sand-background."
+  },
+  {
+    "objectID": "styles.html#blue-background",
+    "href": "styles.html#blue-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Blue Background",
+    "text": "Blue Background\nClass: .blue-background"
+  },
+  {
+    "objectID": "styles.html#green-background",
+    "href": "styles.html#green-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Green Background",
+    "text": "Green Background\nClass: .green-background"
+  },
+  {
+    "objectID": "styles.html#yellow-background",
+    "href": "styles.html#yellow-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Yellow Background",
+    "text": "Yellow Background\nClass: .yellow-background"
+  },
+  {
+    "objectID": "styles.html#coral-background",
+    "href": "styles.html#coral-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Coral Background",
+    "text": "Coral Background\nClass: .coral-background"
+  },
+  {
+    "objectID": "styles.html#sand-background",
+    "href": "styles.html#sand-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Sand Background",
+    "text": "Sand Background\nClass: .sand-background"
+  },
+  {
+    "objectID": "styles.html#map-background",
+    "href": "styles.html#map-background",
+    "title": "HDAdvisors Style Guide",
+    "section": "Map Background",
+    "text": "Map Background\nClass: .map-background"
+  },
+  {
+    "objectID": "styles.html#typography",
+    "href": "styles.html#typography",
+    "title": "HDAdvisors Style Guide",
+    "section": "Typography",
+    "text": "Typography\n\n\n\n\n\n\nNote\n\n\n\nSection: Typography\nFont families and text styles from the HDAdvisors brand.\n\n\nHeadings"
+  },
+  {
+    "objectID": "styles.html#heading-2-roboto-slab-regular",
+    "href": "styles.html#heading-2-roboto-slab-regular",
+    "title": "HDAdvisors Style Guide",
+    "section": "Heading 2 (Roboto Slab Regular)",
+    "text": "Heading 2 (Roboto Slab Regular)\nHeading 3 (Roboto Slab Regular)\nHeading 4 (Roboto Slab Light)\nHeading 5 (Roboto Slab Light)\nHeading 6 (Roboto Slab Light)"
+  },
+  {
+    "objectID": "styles.html#content-containers",
+    "href": "styles.html#content-containers",
+    "title": "HDAdvisors Style Guide",
+    "section": "Content Containers",
+    "text": "Content Containers\n\n\n\n\n\n\nNote\n\n\n\nClass: .welcome\nContainer for welcome section with centered content.\n\n\n\n\n\nWelcome to HDAdvisors\n\n\nThis is an example of the welcome container with welcome text styling. It’s designed to provide an engaging introduction to your website.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nClass: .container-flush\nFull-width container without margins."
+  },
+  {
+    "objectID": "styles.html#full-width-container",
+    "href": "styles.html#full-width-container",
+    "title": "HDAdvisors Style Guide",
+    "section": "Full Width Container",
+    "text": "Full Width Container\nThis container extends to the full width of the viewport without any margins."
+  },
+  {
+    "objectID": "styles.html#cards-and-listing-styles",
+    "href": "styles.html#cards-and-listing-styles",
+    "title": "HDAdvisors Style Guide",
+    "section": "Cards and Listing Styles",
+    "text": "Cards and Listing Styles\n\n\n\n\n\n\nNote\n\n\n\nClass: .listing-box\nCard-style containers for content listings.\n\n\n\n\n\n\n\nCard Title\n\n\nSubtitle or category\n\n\nThis is an example of a listing box card. Hover over me to see the hover effect with subtle shadow.\n\n\n\n\n\n\nResearch Project\n\n\nHousing Analysis\n\n\nCards are great for showcasing projects, team members, or services offered by HDAdvisors.\n\n\n\n\n\n\nPublication Card\n\n\nPolicy Brief\n\n\nEach card has a consistent style with hover effects and maintains equal height in a row."
+  },
+  {
+    "objectID": "styles.html#publication-styling",
+    "href": "styles.html#publication-styling",
+    "title": "HDAdvisors Style Guide",
+    "section": "Publication Styling",
+    "text": "Publication Styling\n\n\n\n\n\n\nNote\n\n\n\nClasses: .listing-pub-title, .listing-pub-author, .listing-pub-journal, .listing-pub-url\nSpecial styles for formatting publication listings.\n\n\n\n\n\nAffordable Housing Trends in Urban Centers\n\n\nSmith, J., Johnson, A., & Williams, M.\n\n\nJournal of Urban Housing, 42(3), 78-92\n\n\nhttps://example.com/publication\n\n\n\n\nPolicy Impact Assessment: Inclusionary Zoning\n\n\nGarcia, R. & Thompson, K.\n\n\nHousing Policy Review, 15(2), 112-128\n\n\nhttps://example.com/publication2"
+  },
+  {
+    "objectID": "styles.html#data-visualization-components",
+    "href": "styles.html#data-visualization-components",
+    "title": "HDAdvisors Style Guide",
+    "section": "Data Visualization Components",
+    "text": "Data Visualization Components\n\n\n\n\n\n\nNote\n\n\n\nClasses: .viz-container, .viz-title, .viz-subtitle, .viz-footnote\nCustom styling for data visualization sections.\n\n\n\n\n\nAffordable Housing Units by Neighborhood\n\n\nRichmond Metropolitan Area, 2023-2024\n\n\n\n[Visualization Placeholder]\n\n\nSource: HDAdvisors analysis of regional housing data, 2024"
+  },
+  {
+    "objectID": "styles.html#custom-color-labels",
+    "href": "styles.html#custom-color-labels",
+    "title": "HDAdvisors Style Guide",
+    "section": "Custom Color Labels",
+    "text": "Custom Color Labels\n\n\n\n\n\n\nNote\n\n\n\nClasses: .affordability-high, .affordability-medium, .affordability-low\nSpecial color-coded text for affordability indicators.\n\n\n\n\nHousing affordability in Richmond neighborhoods ranges from High Affordability to Medium Affordability to Low Affordability depending on location and housing type."
+  },
+  {
+    "objectID": "styles.html#buttons",
+    "href": "styles.html#buttons",
+    "title": "HDAdvisors Style Guide",
+    "section": "Buttons",
+    "text": "Buttons\n\n\n\n\n\n\nNote\n\n\n\nClasses: .btn-primary, .btn-secondary, .btn-accent\nCustom-styled buttons using HDAdvisors brand colors.\n\n\n\n\nPrimary Button\n\n\nSecondary Button\n\n\nAccent Button"
+  },
+  {
+    "objectID": "styles.html#table-styling",
+    "href": "styles.html#table-styling",
+    "title": "HDAdvisors Style Guide",
+    "section": "Table Styling",
+    "text": "Table Styling\n\n\n\n\n\n\nNote\n\n\n\nClasses: .table, .table-striped, .table-hover\nCustom table styling for data presentation.\n\n\n\n\n\n\nNeighborhood\n\n\nAffordable Units\n\n\nMarket Rate Units\n\n\nAffordability Index\n\n\n\n\n\nDowntown\n\n\n450\n\n\n1,200\n\n\nLow\n\n\n\n\nNorthside\n\n\n650\n\n\n850\n\n\nMedium\n\n\n\n\nSouthside\n\n\n890\n\n\n760\n\n\nHigh\n\n\n\n\nWest End\n\n\n220\n\n\n1,450\n\n\nLow"
+  },
+  {
+    "objectID": "styles.html#responsive-layouts",
+    "href": "styles.html#responsive-layouts",
+    "title": "HDAdvisors Style Guide",
+    "section": "Responsive Layouts",
+    "text": "Responsive Layouts\n\n\n\n\n\n\nNote\n\n\n\nResponsive Design Features\nDemonstration of how the layout adapts to different screen sizes.\n\n\n\n\n\n\n\nColumn 1\n\n\nThis layout uses Bootstrap responsive grid with HDAdvisors custom styling.\n\n\n\n\n\n\nColumn 2\n\n\nOn mobile, these will stack. On medium screens, they’ll be 2x2.\n\n\n\n\n\n\nColumn 3\n\n\nOn large screens, all four columns will be displayed in one row.\n\n\n\n\n\n\nColumn 4\n\n\nResize your browser window to see how the responsive layout works."
+  },
+  {
+    "objectID": "styles.html#integration-with-r-visualizations",
+    "href": "styles.html#integration-with-r-visualizations",
+    "title": "HDAdvisors Style Guide",
+    "section": "Integration with R Visualizations",
+    "text": "Integration with R Visualizations\n\n\n\n\n\n\nNote\n\n\n\nR Integration Example\nSample showing how to pair R code with the custom styling.\n\n\n\n\n\nSample R Visualization\n\n\nUsing HDAdvisors custom styles with R plots\n\n\nNote: This is a placeholder. Uncomment the R code to generate an actual visualization."
+  },
+  {
+    "objectID": "styles.html#using-this-style-guide",
+    "href": "styles.html#using-this-style-guide",
+    "title": "HDAdvisors Style Guide",
+    "section": "Using This Style Guide",
+    "text": "Using This Style Guide\nThis page demonstrates all the custom styles available in the HDAdvisors Quarto website. You can copy and paste these elements into your own pages, adapting them as needed. Refer to the class names in each section to understand how to apply these styles to your content."
+  },
+  {
+    "objectID": "staff/maria.html#maria-dougherty",
+    "href": "staff/maria.html#maria-dougherty",
+    "title": "HDAdvisors",
+    "section": "Maria Dougherty",
+    "text": "Maria Dougherty\n\nSenior Associate\nMaria Tova Enriquez Dougherty joined HDAdvisors in June 2022 as a Senior Associate. Maria holds a Master’s degree in Urban and Regional Planning from Virginia Commonwealth University, where she specialized in community-engaged urban design and sustainability planning, as well as a Joint Bachelor’s from The College of William and Mary and the University of St Andrews. \nShe is involved on a variety projects for the company, including providing policy research and programmatic development for HousingForward Virginia and the Virginia Statewide Community Land Trust (VSCLT) and affordable housing real estate development.\nMaria is skilled at:"
+  },
+  {
+    "objectID": "staff/jonathan.html#jonathan-knopf",
+    "href": "staff/jonathan.html#jonathan-knopf",
+    "title": "HDAdvisors",
+    "section": "Jonathan Knopf",
+    "text": "Jonathan Knopf\n\nVice President\nJonathan directs HDA’s research and program efforts across the commonwealth. This work includes regional and local housing needs assessments, policy generation and implementation, and communications strategies. He finds passion in telling data-driven stories about Virginia’s housing challenges and regularly presents at conferences and events throughout the state.\nJonathan has a Masters in Urban and Regional Planning from Virginia Commonwealth University, where he’s also taught an introductory urban planning course since 2018. Jonathan serves on the Robinson Street Association board and the Housing Families First junior board.\nJonathan is skilled at:"
+  },
+  {
+    "objectID": "staff/eric.html#eric-mai",
+    "href": "staff/eric.html#eric-mai",
+    "title": "HDAdvisors",
+    "section": "Eric Mai",
+    "text": "Eric Mai\n\nVice President\nEric has worked in the field of research for over a decade. Before entering the affordable housing industry, Eric worked as a field archaeologist in the Mid-Atlantic for six years. He received his Masters of Archaeology and Heritage Management from the University of Leicester and later his Masters in Urban and Regional Planning from Virginia Commonwealth University. \nHis interdisciplinary background in art history, archaeology, and urban planning brings a distinctive perspective to affordable housing policy and research. Studying how communities throughout history designed and adapted their living spaces has given him unique insights into sustainable urban development and community-centered housing solutions. This historical lens enhances his approach to modern housing challenges, allowing me to identify time-tested patterns in how successful communities balance density, affordability, and quality of life.\nEric currently serves on nonprofit affordable housing boards, including RVA CDC and Commonwealth Catholic Charities Housing Corporation."
+  },
+  {
     "objectID": "CLAUDE.html",
     "href": "CLAUDE.html",
     "title": "CLAUDE.md",
@@ -28,151 +196,11 @@
     "text": "Technology Stack:\n\nQuarto for static site generation\nR/RStudio as the development environment\nGitHub Pages for hosting (using the docs/ directory)\n\nContent Structure:\n\nEach page is defined by a .qmd file in the root directory\nThe site configuration is in _quarto.yml\nThe site is styled using the Cosmo theme with custom CSS in styles.css\n\nFile Organization:\n\n.qmd files: Source content files with Markdown and optional executable code blocks\ndocs/: Generated HTML site (don’t edit directly)\n_quarto.yml: Site configuration (navigation, theme, output settings)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "HDAdvisors Style Guide",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Housing Starts",
     "section": "",
-    "text": "Note\n\n\n\nClass: .richmond-map-hero\nFull-width section with the Richmond map background.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSection: Background Colors\nAvailable background color classes: .blue-background, .green-background, .yellow-background, .coral-background, and .sand-background."
-  },
-  {
-    "objectID": "index.html#hero-sections",
-    "href": "index.html#hero-sections",
-    "title": "HDAdvisors Style Guide",
-    "section": "",
-    "text": "Note\n\n\n\nClass: .richmond-map-hero\nFull-width section with the Richmond map background.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nSection: Background Colors\nAvailable background color classes: .blue-background, .green-background, .yellow-background, .coral-background, and .sand-background."
-  },
-  {
-    "objectID": "index.html#blue-background",
-    "href": "index.html#blue-background",
-    "title": "HDAdvisors Style Guide",
-    "section": "Blue Background",
-    "text": "Blue Background\nClass: .blue-background"
-  },
-  {
-    "objectID": "index.html#green-background",
-    "href": "index.html#green-background",
-    "title": "HDAdvisors Style Guide",
-    "section": "Green Background",
-    "text": "Green Background\nClass: .green-background"
-  },
-  {
-    "objectID": "index.html#yellow-background",
-    "href": "index.html#yellow-background",
-    "title": "HDAdvisors Style Guide",
-    "section": "Yellow Background",
-    "text": "Yellow Background\nClass: .yellow-background"
-  },
-  {
-    "objectID": "index.html#coral-background",
-    "href": "index.html#coral-background",
-    "title": "HDAdvisors Style Guide",
-    "section": "Coral Background",
-    "text": "Coral Background\nClass: .coral-background"
-  },
-  {
-    "objectID": "index.html#sand-background",
-    "href": "index.html#sand-background",
-    "title": "HDAdvisors Style Guide",
-    "section": "Sand Background",
-    "text": "Sand Background\nClass: .sand-background"
-  },
-  {
-    "objectID": "index.html#map-background",
-    "href": "index.html#map-background",
-    "title": "HDAdvisors Style Guide",
-    "section": "Map Background",
-    "text": "Map Background\nClass: .map-background"
-  },
-  {
-    "objectID": "index.html#typography",
-    "href": "index.html#typography",
-    "title": "HDAdvisors Style Guide",
-    "section": "Typography",
-    "text": "Typography\n\n\n\n\n\n\nNote\n\n\n\nSection: Typography\nFont families and text styles from the HDAdvisors brand.\n\n\nHeadings"
-  },
-  {
-    "objectID": "index.html#heading-2-roboto-slab-regular",
-    "href": "index.html#heading-2-roboto-slab-regular",
-    "title": "HDAdvisors Style Guide",
-    "section": "Heading 2 (Roboto Slab Regular)",
-    "text": "Heading 2 (Roboto Slab Regular)\nHeading 3 (Roboto Slab Regular)\nHeading 4 (Roboto Slab Light)\nHeading 5 (Roboto Slab Light)\nHeading 6 (Roboto Slab Light)"
-  },
-  {
-    "objectID": "index.html#content-containers",
-    "href": "index.html#content-containers",
-    "title": "HDAdvisors Style Guide",
-    "section": "Content Containers",
-    "text": "Content Containers\n\n\n\n\n\n\nNote\n\n\n\nClass: .welcome\nContainer for welcome section with centered content.\n\n\n\n\n\nWelcome to HDAdvisors\n\n\nThis is an example of the welcome container with welcome text styling. It’s designed to provide an engaging introduction to your website.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nClass: .container-flush\nFull-width container without margins."
-  },
-  {
-    "objectID": "index.html#full-width-container",
-    "href": "index.html#full-width-container",
-    "title": "HDAdvisors Style Guide",
-    "section": "Full Width Container",
-    "text": "Full Width Container\nThis container extends to the full width of the viewport without any margins."
-  },
-  {
-    "objectID": "index.html#cards-and-listing-styles",
-    "href": "index.html#cards-and-listing-styles",
-    "title": "HDAdvisors Style Guide",
-    "section": "Cards and Listing Styles",
-    "text": "Cards and Listing Styles\n\n\n\n\n\n\nNote\n\n\n\nClass: .listing-box\nCard-style containers for content listings.\n\n\n\n\n\n\n\nCard Title\n\n\nSubtitle or category\n\n\nThis is an example of a listing box card. Hover over me to see the hover effect with subtle shadow.\n\n\n\n\n\n\nResearch Project\n\n\nHousing Analysis\n\n\nCards are great for showcasing projects, team members, or services offered by HDAdvisors.\n\n\n\n\n\n\nPublication Card\n\n\nPolicy Brief\n\n\nEach card has a consistent style with hover effects and maintains equal height in a row."
-  },
-  {
-    "objectID": "index.html#publication-styling",
-    "href": "index.html#publication-styling",
-    "title": "HDAdvisors Style Guide",
-    "section": "Publication Styling",
-    "text": "Publication Styling\n\n\n\n\n\n\nNote\n\n\n\nClasses: .listing-pub-title, .listing-pub-author, .listing-pub-journal, .listing-pub-url\nSpecial styles for formatting publication listings.\n\n\n\n\n\nAffordable Housing Trends in Urban Centers\n\n\nSmith, J., Johnson, A., & Williams, M.\n\n\nJournal of Urban Housing, 42(3), 78-92\n\n\nhttps://example.com/publication\n\n\n\n\nPolicy Impact Assessment: Inclusionary Zoning\n\n\nGarcia, R. & Thompson, K.\n\n\nHousing Policy Review, 15(2), 112-128\n\n\nhttps://example.com/publication2"
-  },
-  {
-    "objectID": "index.html#data-visualization-components",
-    "href": "index.html#data-visualization-components",
-    "title": "HDAdvisors Style Guide",
-    "section": "Data Visualization Components",
-    "text": "Data Visualization Components\n\n\n\n\n\n\nNote\n\n\n\nClasses: .viz-container, .viz-title, .viz-subtitle, .viz-footnote\nCustom styling for data visualization sections.\n\n\n\n\n\nAffordable Housing Units by Neighborhood\n\n\nRichmond Metropolitan Area, 2023-2024\n\n\n\n[Visualization Placeholder]\n\n\nSource: HDAdvisors analysis of regional housing data, 2024"
-  },
-  {
-    "objectID": "index.html#custom-color-labels",
-    "href": "index.html#custom-color-labels",
-    "title": "HDAdvisors Style Guide",
-    "section": "Custom Color Labels",
-    "text": "Custom Color Labels\n\n\n\n\n\n\nNote\n\n\n\nClasses: .affordability-high, .affordability-medium, .affordability-low\nSpecial color-coded text for affordability indicators.\n\n\n\n\nHousing affordability in Richmond neighborhoods ranges from High Affordability to Medium Affordability to Low Affordability depending on location and housing type."
-  },
-  {
-    "objectID": "index.html#buttons",
-    "href": "index.html#buttons",
-    "title": "HDAdvisors Style Guide",
-    "section": "Buttons",
-    "text": "Buttons\n\n\n\n\n\n\nNote\n\n\n\nClasses: .btn-primary, .btn-secondary, .btn-accent\nCustom-styled buttons using HDAdvisors brand colors.\n\n\n\n\nPrimary Button\n\n\nSecondary Button\n\n\nAccent Button"
-  },
-  {
-    "objectID": "index.html#table-styling",
-    "href": "index.html#table-styling",
-    "title": "HDAdvisors Style Guide",
-    "section": "Table Styling",
-    "text": "Table Styling\n\n\n\n\n\n\nNote\n\n\n\nClasses: .table, .table-striped, .table-hover\nCustom table styling for data presentation.\n\n\n\n\n\n\nNeighborhood\n\n\nAffordable Units\n\n\nMarket Rate Units\n\n\nAffordability Index\n\n\n\n\n\nDowntown\n\n\n450\n\n\n1,200\n\n\nLow\n\n\n\n\nNorthside\n\n\n650\n\n\n850\n\n\nMedium\n\n\n\n\nSouthside\n\n\n890\n\n\n760\n\n\nHigh\n\n\n\n\nWest End\n\n\n220\n\n\n1,450\n\n\nLow"
-  },
-  {
-    "objectID": "index.html#responsive-layouts",
-    "href": "index.html#responsive-layouts",
-    "title": "HDAdvisors Style Guide",
-    "section": "Responsive Layouts",
-    "text": "Responsive Layouts\n\n\n\n\n\n\nNote\n\n\n\nResponsive Design Features\nDemonstration of how the layout adapts to different screen sizes.\n\n\n\n\n\n\n\nColumn 1\n\n\nThis layout uses Bootstrap responsive grid with HDAdvisors custom styling.\n\n\n\n\n\n\nColumn 2\n\n\nOn mobile, these will stack. On medium screens, they’ll be 2x2.\n\n\n\n\n\n\nColumn 3\n\n\nOn large screens, all four columns will be displayed in one row.\n\n\n\n\n\n\nColumn 4\n\n\nResize your browser window to see how the responsive layout works."
-  },
-  {
-    "objectID": "index.html#integration-with-r-visualizations",
-    "href": "index.html#integration-with-r-visualizations",
-    "title": "HDAdvisors Style Guide",
-    "section": "Integration with R Visualizations",
-    "text": "Integration with R Visualizations\n\n\n\n\n\n\nNote\n\n\n\nR Integration Example\nSample showing how to pair R code with the custom styling.\n\n\n\n\n\nSample R Visualization\n\n\nUsing HDAdvisors custom styles with R plots\n\n\nNote: This is a placeholder. Uncomment the R code to generate an actual visualization."
-  },
-  {
-    "objectID": "index.html#using-this-style-guide",
-    "href": "index.html#using-this-style-guide",
-    "title": "HDAdvisors Style Guide",
-    "section": "Using This Style Guide",
-    "text": "Using This Style Guide\nThis page demonstrates all the custom styles available in the HDAdvisors Quarto website. You can copy and paste these elements into your own pages, adapting them as needed. Refer to the class names in each section to understand how to apply these styles to your content."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYour First Blog Post\n\n\n\n\n\n\naffordable housing\n\n\nRichmond\n\n\n\nAn introduction to our new blog\n\n\n\n\n\nMay 10, 2025\n\n\nHDAdvisors\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -180,69 +208,6 @@
     "title": "Overview",
     "section": "",
     "text": "About HDAdvisors\n\n\nHDAdvisors (HDA) is a collaboration of experienced community development professionals launched in 2006. HDA provides housing-related consulting services to non-profits, housing authorities, local governments, lenders, and other community development organizations. HDA is led by Erica Sims, who has spent 20 years in affordable development as both a developer and consultant. \nHDA provides feasibility, financial and development consulting services for affordable housing and other community development projects. HDA is unique because its principals have spent decades as the heads of for-profit and non-profit development corporations and policy organizations in multiple states, building new construction and rehabilitation projects for affordable housing.  \nThis experience gives us an intimate knowledge of federal and local housing programs and what “works” and what does not. This development experience enables HDA to understand housing policy from the perspective of a practitioner in the private sector, to assist clients in creating projects that are workable in the real world. Our work includes: ​\n\nCommunity Land Trusts\nData visualization\nDue diligence and project feasibility\nFinancial structuring\nFund development and strategy\nFractional C-suite nonprofit staffing\nHousing needs assessments\nHousing program and policy design, evaluation and implementation\nHousing research\nLand Banks\nNeighborhood and project strategies / Community engagement\nMixed use buildings / Mixed income strategies\nReal estate development planning\nSurvey design and implementation\nTax credit strategies\n\nLow-Income Housing Tax Credits​\nHistoric Tax Credits\nNew Market Tax Credits"
-  },
-  {
-    "objectID": "about.html#add-more-staff",
-    "href": "about.html#add-more-staff",
-    "title": "Who We Are",
-    "section": "Add More Staff",
-    "text": "Add More Staff\n\n  \n    \n      \n        Staff Member 3\n        Position\n        Description of what this staff member does and their areas of expertise.\n      \n    \n    \n    \n      \n        Staff Member 4\n        Position\n        Description of what this staff member does and their areas of expertise.\n      \n    \n    \n    \n      \n        Staff Member 5\n        Position\n        Description of what this staff member does and their areas of expertise."
-  },
-  {
-    "objectID": "staff.html",
-    "href": "staff.html",
-    "title": "Who We Are",
-    "section": "",
-    "text": "We are based in Richmond, Virginia.\n\n\n\n\n\n\n\n\nErica Sims\n\nPresident\n\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\n\n\n\n\n\n\n\n\n\n\nJonathan Knopf\n\nVice President\n\n\nYou should talk to Jonathan if you need help with housing policy, data, or more.\n\n\n\n\n\n\n\n\n\n\nEric Mai\n\nPosition\n\n\nYou should talk to Eric if you need help with pre-development, housing research, survey design, data, or more.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmelie Rives\n\nSenior Associate\n\n\nYou should talk to Amelie if you need help with housing program design, community land trusts, or more.\n\n\n\n\n\n\n\n\n\n\nMaria Dougherty\n\nSenior Associate\n\n\nYou should talk to Maria if you need help with housing policy, data analysis, real estate development, or more.\n\n\n\n\n\n\n\n\n\n\nKendra Mamula\n\nAdministrative Assistant\n\n\nKendra helps us with managing our schedules, handling communications, entering data, and maintaining our office."
-  },
-  {
-    "objectID": "staff.html#leadership-team-cards-with-circular-images",
-    "href": "staff.html#leadership-team-cards-with-circular-images",
-    "title": "Our Team",
-    "section": "",
-    "text": "President\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\n\n\n\n\n\n\n\n\nJonathan Knopf\n\n\n\n\n\nVice President\n\nYou should talk to Jonathan if you need help with housing policy, data, or more."
-  },
-  {
-    "objectID": "staff.html#team-members-cards-with-header-images",
-    "href": "staff.html#team-members-cards-with-header-images",
-    "title": "Our Team",
-    "section": "Team Members (Cards with Header Images)",
-    "text": "Team Members (Cards with Header Images)\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\nTeam Member Name\n\nPosition\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\nTeam Member 4\n\n\n\n\nTeam Member Name\n\nPosition\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\nTeam Member 5\n\n\n\n\nTeam Member Name\n\nPosition\n\nDescription of what this team member does and their areas of expertise."
-  },
-  {
-    "objectID": "staff.html#project-cards-cards-with-images-and-buttons",
-    "href": "staff.html#project-cards-cards-with-images-and-buttons",
-    "title": "Our Team",
-    "section": "Project Cards (Cards with Images and Buttons)",
-    "text": "Project Cards (Cards with Images and Buttons)\n\n\n\n\n\n\n\n\nProject 1\n\n\n\n\nHousing Analysis Project\nA brief description of this housing analysis project and its impact.\nLearn More\n\n\n\n\n\n\n\n\n\nProject 2\n\n\n\n\nCommunity Development\nA brief description of this community development project and its impact.\nView Project\n\n\n\n\n\n\n\n\n\nProject 3\n\n\n\n\nPolicy Implementation\nA brief description of this policy implementation project and its impact.\nCase Study"
-  },
-  {
-    "objectID": "staff.html#leadership-team-with-larger-circular-images",
-    "href": "staff.html#leadership-team-with-larger-circular-images",
-    "title": "Who We Are",
-    "section": "",
-    "text": "Erica Sims\n\n\n\n\n\nPresident\n\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\n\n\n\n\n\n\n\n\n\nJonathan Knopf\n\n\n\n\n\nVice President\n\n\nYou should talk to Jonathan if you need help with housing policy, data, or more."
-  },
-  {
-    "objectID": "staff.html#team-members-with-taller-header-images",
-    "href": "staff.html#team-members-with-taller-header-images",
-    "title": "Who We Are",
-    "section": "",
-    "text": "Team Member 3\n\n\n\n\n\n\nPosition\n\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\n\n\nPosition\n\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\n\n\nPosition\n\n\nDescription of what this team member does and their areas of expertise."
-  },
-  {
-    "objectID": "staff.html#team-members-with-taller-header-images-1",
-    "href": "staff.html#team-members-with-taller-header-images-1",
-    "title": "Who We Are",
-    "section": "Team Members (With Taller Header Images)",
-    "text": "Team Members (With Taller Header Images)\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\nTeam Member Name\n\nPosition\n\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\nTeam Member Name\n\nPosition\n\n\nDescription of what this team member does and their areas of expertise.\n\n\n\n\n\n\n\n\n\n\nTeam Member 3\n\n\n\n\nTeam Member Name\n\nPosition\n\n\nDescription of what this team member does and their areas of expertise."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Housing Starts",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYour First Blog Post\n\n\n\n\n\n\naffordable housing\n\n\nRichmond\n\n\n\nAn introduction to our new blog\n\n\n\n\n\nMay 10, 2025\n\n\nHDAdvisors\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2025-05-10/index.html",
@@ -257,5 +222,40 @@
     "title": "Your First Blog Post",
     "section": "Example R Code",
     "text": "Example R Code\n\nCodelibrary(ggplot2)\nlibrary(dplyr)\n\n# Sample data - replace with your actual data\nhousing_data &lt;- data.frame(\n  year = 2015:2025,\n  median_price = c(220000, 230000, 245000, 260000, 275000, \n                  292000, 325000, 375000, 400000, 410000, 415000)\n)\n\n# Create a visualization\nggplot(housing_data, aes(x = year, y = median_price)) +\n  geom_line(color = \"#2C3E50\", size = 1.2) +\n  geom_point(color = \"#E74C3C\", size = 3) +\n  scale_y_continuous(labels = scales::dollar) +\n  theme_minimal() +\n  labs(\n    title = \"Richmond Area Housing Price Trends\",\n    subtitle = \"Median home prices have nearly doubled over the past decade\",\n    x = \"Year\",\n    y = \"Median Price\"\n  )\n\n\n\nExample visualization"
+  },
+  {
+    "objectID": "staff/amelie.html#amelie-rives",
+    "href": "staff/amelie.html#amelie-rives",
+    "title": "HDAdvisors",
+    "section": "Amelie Rives",
+    "text": "Amelie Rives\n\nSenior Associate\nAmelie Rives came to HDAdvisors from the CDFI field, where she did financial counseling and economic-inclusion work. She received her B.A. in Sociology from Roanoke College and a Master in Urban and Regional Planning from Virginia Commonwealth University. In her graduate work,, she focused on displacement and asset-based community development, culminating in a participatory equitable development plan with Virginia Community Voice, where she still volunteers now. Amelie enjoys cooking and baking gluten free treats, spending time with her rescue dog, and riding her bike to the James River.\nAmelie is skilled at:"
+  },
+  {
+    "objectID": "staff/erica.html#erica-sims",
+    "href": "staff/erica.html#erica-sims",
+    "title": "HDAdvisors",
+    "section": "Erica Sims",
+    "text": "Erica Sims\n\nPresident\nErica has worked in the non-profit management, affordable housing development, and community organizing fields for over 20 years. Her focus has been social and economic justice through housing and economic development. Ms. Sims has held private sector, nonprofit, and government roles and has overseen the development of over 2,500 units of affordable housing and 50,000 square feet of commercial development space in new construction and renovation projects.\nPrior to joining HDA in 2017, she was the Deputy Executive Director of Mutual Housing Association of New York, an non-profit affordable housing developer, owner, and manager with a portfolio over 1,500 units of affordable housing. She received a Bachelor’s in Economics and a Bachelor’s in Urban Planning from the University of Michigan and a Masters of Business Administration from the Massachusetts Institute of Technology. \nDuring her tenure at HDAdvisors she served as Maggie Walker Community Land Trust’s CEO, Virginia Statewide Community Land Trust’s CEO and HousingForward’s Co-Executive Director."
+  },
+  {
+    "objectID": "staff/kendra.html",
+    "href": "staff/kendra.html",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "Kendra has a background in…"
+  },
+  {
+    "objectID": "staff/kendra.html#kendra-mamula",
+    "href": "staff/kendra.html#kendra-mamula",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "Kendra has a background in…"
+  },
+  {
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "Who We Are",
+    "section": "",
+    "text": "We are based in Richmond, Virginia.\n\n\n\n\n\n\n\n\nErica Sims\n\nPresident\n\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\nLearn more abut Erica here.\n\n\n\n\n\n\n\n\n\n\nJonathan Knopf\n\nVice President\n\n\nYou should talk to Jonathan if you need help with housing policy, data, or more.\nLearn more abut Jonathan here.\n\n\n\n\n\n\n\n\n\n\nEric Mai\n\nPosition\n\n\nYou should talk to Eric if you need help with pre-development, housing research, survey design, data, or more.\nLearn more abut Eric here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmelie Rives\n\nSenior Associate\n\n\nYou should talk to Amelie if you need help with housing program design, community land trusts, or more. By the way, it’s Amelie like family.\nLearn more abut Amelie here.\n\n\n\n\n\n\n\n\n\n\nMaria Dougherty\n\nSenior Associate\n\n\nYou should talk to Maria if you need help with housing policy, data analysis, real estate development, or more.\nLearn more abut Maria here.\n\n\n\n\n\n\n\n\n\n\nKendra Mamula\n\nAdministrative Assistant\n\n\nKendra helps us with managing our schedules, handling communications, entering data, and maintaining our office.\nLearn more abut Kendra here."
   }
 ]

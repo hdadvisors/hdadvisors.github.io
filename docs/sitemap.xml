@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hdadvisors.net/CLAUDE.html</loc>
-    <lastmod>2025-05-09T01:39:37.522Z</lastmod>
+    <loc>https://hdadvisors.net/styles.html</loc>
+    <lastmod>2025-05-13T13:01:24.834Z</lastmod>
   </url>
   <url>
-    <loc>https://hdadvisors.net/about.html</loc>
-    <lastmod>2025-05-11T00:47:33.049Z</lastmod>
+    <loc>https://hdadvisors.net/staff/maria.html</loc>
+    <lastmod>2025-05-13T13:27:19.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdadvisors.net/staff/jonathan.html</loc>
+    <lastmod>2025-05-13T13:27:18.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdadvisors.net/staff/eric.html</loc>
+    <lastmod>2025-05-13T13:27:22.332Z</lastmod>
   </url>
   <url>
     <loc>https://hdadvisors.net/services.html</loc>
-    <lastmod>2025-05-09T01:33:35.802Z</lastmod>
+    <lastmod>2025-05-13T13:01:24.833Z</lastmod>
   </url>
   <url>
-    <loc>https://hdadvisors.net/index.html</loc>
-    <lastmod>2025-05-09T14:42:31.709Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hdadvisors.net/staff.html</loc>
-    <lastmod>2025-05-11T01:27:42.124Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hdadvisors.net/styles.html</loc>
-    <lastmod>2025-05-11T00:57:55.625Z</lastmod>
+    <loc>https://hdadvisors.net/CLAUDE.html</loc>
+    <lastmod>2025-05-13T13:01:24.236Z</lastmod>
   </url>
   <url>
     <loc>https://hdadvisors.net/blog/index.html</loc>
-    <lastmod>2025-05-11T01:43:36.824Z</lastmod>
+    <lastmod>2025-05-13T13:01:24.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdadvisors.net/about.html</loc>
+    <lastmod>2025-05-13T13:01:24.237Z</lastmod>
   </url>
   <url>
     <loc>https://hdadvisors.net/blog/posts/2025-05-10/index.html</loc>
-    <lastmod>2025-05-11T01:46:11.713Z</lastmod>
+    <lastmod>2025-05-13T13:01:24.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdadvisors.net/staff/amelie.html</loc>
+    <lastmod>2025-05-13T13:27:20.655Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdadvisors.net/staff/erica.html</loc>
+    <lastmod>2025-05-13T13:26:30.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdadvisors.net/staff/kendra.html</loc>
+    <lastmod>2025-05-13T13:27:23.618Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdadvisors.net/staff.html</loc>
+    <lastmod>2025-05-13T13:30:24.179Z</lastmod>
   </url>
 </urlset>

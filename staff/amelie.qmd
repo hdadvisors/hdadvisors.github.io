@@ -1,0 +1,16 @@
+---
+format: html
+listing: false
+---
+
+![](/images/team/amelie.jpg){fig-align="center" width="500"}
+
+## Amelie Rives
+
+#### Senior Associate
+
+Amelie Rives came to HDAdvisors from the CDFI field, where she did financial counseling and economic-inclusion work. She received her B.A. in Sociology from Roanoke College and a Master in Urban and Regional Planning from Virginia Commonwealth University. In her graduate work,, she focused on displacement and asset-based community development, culminating in a participatory equitable development plan with Virginia Community Voice, where she still volunteers now. Amelie enjoys cooking and baking gluten free treats, spending time with her rescue dog, and riding her bike to the James River.
+
+Amelie is skilled at:
+
+-   
