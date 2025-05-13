@@ -529,3 +529,76 @@ body {
     max-width: 1000px;
   }
 }
+
+/* Service card specific styling */
+.service-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.service-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+/* Image container for service cards */
+.service-image-container {
+  width: 100%;
+  height: 220px; /* Fixed height for image area - adjust as needed */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Image styles to fill container */
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This makes the image cover the container */
+  object-position: center;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/* Content area styles */
+.service-content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Title styles */
+.service-title {
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #445ca9; /* Your brand blue */
+}
+
+/* Body content styles */
+.service-body {
+  flex-grow: 1;
+}
+
+/* Responsive image heights */
+@media (min-width: 992px) {
+  .service-image-container {
+    height: 240px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .service-image-container {
+    height: 260px;
+  }
+}

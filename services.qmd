@@ -3,7 +3,6 @@ format:
   html:
     page-layout: full
 ---
-
 ::: {.banner-fullwidth .banner-image}
 ::: {.banner-image .banner-md .overlay-brand .text-right style="background-image: url('images/rvabanner_3.JPG');"}
 ::: {.banner-text}
@@ -11,163 +10,128 @@ format:
 :::
 :::
 :::
-
 ::: {.container}
 ::: {.row}
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/stock/financing.jpeg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/financing.jpeg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Housing needs assessments {.listing-box-title}
-
-::: {.listing-box-body}
-We can help you quantify and qualify your community's housing needs through market analysis and 
-
+::: {.service-content}
+### Housing needs assessments {.service-title}
+::: {.service-body}
+We can help you quantify and qualify your community's housing needs through market analysis and 
 :::
 :::
 :::
 :::
-
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/stock/multifam.jpeg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/multifam.jpeg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Real estate development {.listing-box-title}
-
-::: {.listing-box-body}
+::: {.service-content}
+### Real estate development {.service-title}
+::: {.service-body}
 We can help you plan and finance your real estate development project.
-
 :::
 :::
 :::
 :::
-
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/team/eric.jpg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/survey.jpg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Research {.listing-box-title}
-
-::: {.listing-box-body}
-We can help you research and analyze a housing  issue in your community.
-
+::: {.service-content}
+### Research {.service-title}
+::: {.service-body}
+We can help you research and analyze a housing issue in your community.
 :::
 :::
 :::
 :::
 :::
 :::
-
 ::: {.container}
 ::: {.row}
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/stock/generalassembly.jpeg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/generalassembly.jpeg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Policy {.listing-box-title}
-
-::: {.listing-box-body}
+::: {.service-content}
+### Policy {.service-title}
+::: {.service-body}
 We can help you design and develop innovative and proven housing policies in your communitiy.
-
 :::
 :::
 :::
 :::
-
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/stock/policy.jpeg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/policy.jpeg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Program development {.listing-box-title}
-
-::: {.listing-box-body}
+::: {.service-content}
+### Program development {.service-title}
+::: {.service-body}
 We can help you implement and manage an affordable housing program.
-
 :::
 :::
 :::
 :::
-
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/stock/gather.jpg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/gather.jpg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Capacity building {.listing-box-title}
-
-::: {.listing-box-body}
+::: {.service-content}
+### Capacity building {.service-title}
+::: {.service-body}
 We can help increase the capacity of your growing nonprofit organization.
-
 :::
 :::
 :::
 :::
 :::
 :::
-
 ::: {.container}
 ::: {.row}
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/sforum.jpeg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/sforum.jpeg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Speaking engagements {.listing-box-title}
-
-::: {.listing-box-body}
+::: {.service-content}
+### Speaking engagements {.service-title}
+::: {.service-body}
 We can come to your communities and speak about affordable housing.
-
 :::
 :::
 :::
 :::
-
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/stock/data.jpeg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/data.jpeg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Data visualization {.listing-box-title}
-
-::: {.listing-box-body}
+::: {.service-content}
+### Data visualization {.service-title}
+::: {.service-body}
 We can help analyze data and design straightforward and easy-to-understand visualizations.
-
 :::
 :::
 :::
 :::
-
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
-![](images/stock/gather.jpg){.listing-box-image}
+::: {.service-card .has-image}
+::: {.service-image-container}
+![](images/stock/gather.jpg){.service-image}
 :::
-
-::: {.listing-box-content}
-### Program management {.listing-box-title}
-
-::: {.listing-box-body}
+::: {.service-content}
+### Program management {.service-title}
+::: {.service-body}
 xxx
 :::
 :::
@@ -175,10 +139,7 @@ xxx
 :::
 :::
 :::
-
 :::{.container-flush.blue-background .p-5 .text-white .text-center}
 ## Need help with something housing-related but not listed?
-
 We're a dynamic organization with a diverse expertise and skills. We are happy to chat about your ideas or challenges to let you know how we can help. If we can't help, we are more than willing to connect you to one or many of our friends and peers who work across the Commonwealth.
-
 :::

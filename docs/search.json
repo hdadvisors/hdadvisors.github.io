@@ -196,6 +196,69 @@
     "text": "Need help with something housing-related but not listed?\nWe’re a dynamic organization with a diverse expertise and skills. We are happy to chat about your ideas or challenges to let you know how we can help. If we can’t help, we are more than willing to connect you to one or many of our friends and peers who work across the Commonwealth."
   },
   {
+    "objectID": "services/research.html",
+    "href": "services/research.html",
+    "title": "research",
+    "section": "",
+    "text": "We conduct targeted research on specific housing topics that combines rigorous academic methods with practical applications. Our research projects include literature reviews, case studies of best practices, program evaluations, and policy analyses tailored to specific community contexts. We design research methodologies that balance quantitative and qualitative approaches to provide holistic understanding of complex housing challenges. Our findings are presented in accessible formats that bridge the gap between academic research and practical implementation, giving clients actionable information to guide decision-making."
+  },
+  {
+    "objectID": "services/policy.html",
+    "href": "services/policy.html",
+    "title": "policy",
+    "section": "",
+    "text": "HDAdvisors develops innovative housing programs and policies tailored to specific community needs and market conditions. We identify best practices from across the country and adapt them to local contexts, ensuring that new initiatives build on proven models while responding to unique local circumstances. Our design process incorporates input from multiple stakeholders and addresses implementation considerations from the outset. We create detailed program guidelines, application materials, and evaluation frameworks that support efficient administration while achieving intended outcomes. Our approach emphasizes programs that are financially sustainable, administratively feasible, and responsive to evolving community needs."
+  },
+  {
+    "objectID": "services/development.html",
+    "href": "services/development.html",
+    "title": "development",
+    "section": "",
+    "text": "Our team guides clients through every phase of the development process, from initial concept to project completion. We assist with site selection, zoning analysis, architectural coordination, construction oversight, and lease-up planning. Drawing on decades of hands-on development experience, we anticipate challenges before they arise and create realistic timelines and budgets that account for the complexities of affordable housing development. Our approach emphasizes long-term sustainability while meeting immediate community needs."
+  },
+  {
+    "objectID": "services/capacity.html",
+    "href": "services/capacity.html",
+    "title": "capacity",
+    "section": "",
+    "text": "HDAdvisors develops innovative housing programs and policies tailored to specific community needs and market conditions. We identify best practices from across the country and adapt them to local contexts, ensuring that new initiatives build on proven models while responding to unique local circumstances. Our design process incorporates input from multiple stakeholders and addresses implementation considerations from the outset. We create detailed program guidelines, application materials, and evaluation frameworks that support efficient administration while achieving intended outcomes. Our approach emphasizes programs that are financially sustainable, administratively feasible, and responsive to evolving community needs."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "←\n\n\n→"
+  },
+  {
+    "objectID": "blog/posts/2025-05-10/index.html",
+    "href": "blog/posts/2025-05-10/index.html",
+    "title": "Your First Blog Post",
+    "section": "",
+    "text": "Welcome to the HDAdvisors blog! This is where we’ll share insights on affordable housing trends, policy research, and data visualization."
+  },
+  {
+    "objectID": "blog/posts/2025-05-10/index.html#example-r-code",
+    "href": "blog/posts/2025-05-10/index.html#example-r-code",
+    "title": "Your First Blog Post",
+    "section": "Example R Code",
+    "text": "Example R Code\n\nCodelibrary(ggplot2)\nlibrary(dplyr)\n\n# Sample data - replace with your actual data\nhousing_data &lt;- data.frame(\n  year = 2015:2025,\n  median_price = c(220000, 230000, 245000, 260000, 275000, \n                  292000, 325000, 375000, 400000, 410000, 415000)\n)\n\n# Create a visualization\nggplot(housing_data, aes(x = year, y = median_price)) +\n  geom_line(color = \"#2C3E50\", size = 1.2) +\n  geom_point(color = \"#E74C3C\", size = 3) +\n  scale_y_continuous(labels = scales::dollar) +\n  theme_minimal() +\n  labs(\n    title = \"Richmond Area Housing Price Trends\",\n    subtitle = \"Median home prices have nearly doubled over the past decade\",\n    x = \"Year\",\n    y = \"Median Price\"\n  )\n\n\n\nExample visualization"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "HDAdvisors (HDA) is a collaboration of experienced community development professionals launched in 2006. HDA provides housing-related consulting services to non-profits, housing authorities, local governments, lenders, and other community development organizations. HDA is led by Erica Sims, who has spent 20 years in affordable development as both a developer and consultant.\nHDA provides feasibility, financial and development consulting services for affordable housing and other community development projects. HDA is unique because its principals have spent decades as the heads of for-profit and non-profit development corporations and policy organizations in multiple states, building new construction and rehabilitation projects for affordable housing.\nThis experience gives us an intimate knowledge of federal and local housing programs and what “works” and what does not. This development experience enables HDA to understand housing policy from the perspective of a practitioner in the private sector, to assist clients in creating projects that are workable in the real world. Our work includes: ​"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Housing Starts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYour First Blog Post\n\n\n\n\n\n\naffordable housing\n\n\nRichmond\n\n\n\nAn introduction to our new blog\n\n\n\n\n\nMay 10, 2025\n\n\nHDAdvisors\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "CLAUDE.html",
     "href": "CLAUDE.html",
     "title": "CLAUDE.md",
@@ -224,39 +287,39 @@
     "text": "Technology Stack:\n\nQuarto for static site generation\nR/RStudio as the development environment\nGitHub Pages for hosting (using the docs/ directory)\n\nContent Structure:\n\nEach page is defined by a .qmd file in the root directory\nThe site configuration is in _quarto.yml\nThe site is styled using the Cosmo theme with custom CSS in styles.css\n\nFile Organization:\n\n.qmd files: Source content files with Markdown and optional executable code blocks\ndocs/: Generated HTML site (don’t edit directly)\n_quarto.yml: Site configuration (navigation, theme, output settings)"
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Housing Starts",
+    "objectID": "services/assessments.html",
+    "href": "services/assessments.html",
+    "title": "assessments",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYour First Blog Post\n\n\n\n\n\n\naffordable housing\n\n\nRichmond\n\n\n\nAn introduction to our new blog\n\n\n\n\n\nMay 10, 2025\n\n\nHDAdvisors\n\n\n\n\n\n\nNo matching items"
+    "text": "Our comprehensive housing needs assessments combine quantitative data analysis with qualitative research to provide a nuanced understanding of local housing challenges and opportunities. We analyze demographic trends, housing market conditions, and economic indicators while gathering input from residents, service providers, and other stakeholders. Our assessments include detailed gap analyses that identify specific housing needs by income level, household type, and special populations. We translate technical findings into clear recommendations for housing production targets, policy changes, and program investments that respond to identified needs and market realities."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "HDAdvisors",
+    "objectID": "services/dataviz.html",
+    "href": "services/dataviz.html",
+    "title": "dataviz",
     "section": "",
-    "text": "HDAdvisors (HDA) is a collaboration of experienced community development professionals launched in 2006. HDA provides housing-related consulting services to non-profits, housing authorities, local governments, lenders, and other community development organizations. HDA is led by Erica Sims, who has spent 20 years in affordable development as both a developer and consultant.\nHDA provides feasibility, financial and development consulting services for affordable housing and other community development projects. HDA is unique because its principals have spent decades as the heads of for-profit and non-profit development corporations and policy organizations in multiple states, building new construction and rehabilitation projects for affordable housing.\nThis experience gives us an intimate knowledge of federal and local housing programs and what “works” and what does not. This development experience enables HDA to understand housing policy from the perspective of a practitioner in the private sector, to assist clients in creating projects that are workable in the real world. Our work includes: ​"
+    "text": "Our team transforms complex housing data into clear, compelling visual formats that make information accessible to diverse audiences. We create interactive dashboards, infographics, maps, and charts that highlight key patterns and relationships in housing markets and needs. Our visualization work supports both strategic planning and public communication, helping stakeholders understand housing trends and their implications. We specialize in presenting technical information in ways that resonate with non-technical audiences, using visualization techniques that reveal insights that might be missed in traditional data presentations."
   },
   {
-    "objectID": "blog/posts/2025-05-10/index.html",
-    "href": "blog/posts/2025-05-10/index.html",
-    "title": "Your First Blog Post",
+    "objectID": "services/management.html",
+    "href": "services/management.html",
+    "title": "management",
     "section": "",
-    "text": "Welcome to the HDAdvisors blog! This is where we’ll share insights on affordable housing trends, policy research, and data visualization."
+    "text": "HDAdvisors provides comprehensive program management services for affordable housing initiatives at all scales, from individual projects to organization-wide portfolios. We oversee the full lifecycle of housing programs, establishing clear objectives, detailed work plans, and robust monitoring systems that ensure accountability and measurable outcomes. Our approach combines strategic vision with attention to operational details, allowing us to manage complex initiatives with multiple stakeholders and funding sources. We excel at coordinating cross-functional teams, balancing competing priorities, and adapting to changing circumstances while maintaining focus on core program goals. Our program management services include regular reporting to stakeholders, risk assessment and mitigation strategies, and systems for capturing and applying lessons learned. We bring particular expertise to programs involving multiple partners, helping to clarify roles and responsibilities, establish effective communication channels, and create shared accountability frameworks that support collaborative success."
   },
   {
-    "objectID": "blog/posts/2025-05-10/index.html#example-r-code",
-    "href": "blog/posts/2025-05-10/index.html#example-r-code",
-    "title": "Your First Blog Post",
-    "section": "Example R Code",
-    "text": "Example R Code\n\nCodelibrary(ggplot2)\nlibrary(dplyr)\n\n# Sample data - replace with your actual data\nhousing_data &lt;- data.frame(\n  year = 2015:2025,\n  median_price = c(220000, 230000, 245000, 260000, 275000, \n                  292000, 325000, 375000, 400000, 410000, 415000)\n)\n\n# Create a visualization\nggplot(housing_data, aes(x = year, y = median_price)) +\n  geom_line(color = \"#2C3E50\", size = 1.2) +\n  geom_point(color = \"#E74C3C\", size = 3) +\n  scale_y_continuous(labels = scales::dollar) +\n  theme_minimal() +\n  labs(\n    title = \"Richmond Area Housing Price Trends\",\n    subtitle = \"Median home prices have nearly doubled over the past decade\",\n    x = \"Year\",\n    y = \"Median Price\"\n  )\n\n\n\nExample visualization"
+    "objectID": "services/program.html",
+    "href": "services/program.html",
+    "title": "program",
+    "section": "",
+    "text": "We provide comprehensive support for launching new housing programs and assessing the effectiveness of existing initiatives. Our implementation services include creating operational procedures, training staff, developing marketing strategies, and establishing monitoring systems. Our evaluations combine process and outcome measures to determine whether programs are achieving their goals efficiently and equitably. We identify specific recommendations for program refinement based on performance data and stakeholder feedback. Our approach emphasizes continuous improvement rather than one-time assessment, creating systems that allow programs to adapt to changing conditions and incorporate new learning."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "HDAdvisors",
+    "objectID": "services/speaking.html",
+    "href": "services/speaking.html",
+    "title": "speaking",
     "section": "",
-    "text": "←\n\n\n→"
+    "text": "We are go-to experts to talk about affordable housing in Virginia."
   },
   {
     "objectID": "staff/amelie.html#amelie-rives",
