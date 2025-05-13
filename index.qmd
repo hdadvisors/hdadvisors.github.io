@@ -96,8 +96,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 ::: {.carousel-fullwidth}
 ::: {.carousel-container data-interval="6000"}
-::: {.carousel-slides .carousel-height-lg}
 
+::: {.carousel-slides .carousel-height-lg}
+::: {.carousel-fullwidth .carousel-slides}
 ::: {.carousel-slide .overlay-brand style="background-image: url('images/stock/financial.jpeg');"}
 ::: {.carousel-text .carousel-text-center}
 ## We help build organizations {.text-light}
@@ -133,6 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
 →
 :::
 
+:::
 :::
 :::
 :::
