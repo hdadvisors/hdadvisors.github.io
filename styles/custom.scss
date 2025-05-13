@@ -554,6 +554,99 @@ main {
   }
 }
 
+/* -- Newsletter Subscription Form -- */
+.newsletter-container {
+  max-width: 600px;
+  margin: 2rem auto 3rem auto;
+  padding: 1.5rem;
+  background-color: $sand;
+  border-radius: 8px;
+  border: 1px solid $green;
+}
+
+/* Sidebar newsletter form */
+.newsletter-sidebar {
+  background-color: $sand;
+  border-radius: 8px;
+  border: 1px solid $green;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.embeddable-buttondown-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.embeddable-buttondown-form label {
+  font-family: 'Roboto Slab', 'Georgia', serif;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: $blue;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: 'Lato', 'Corbel', sans-serif;
+  width: 100%;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  background-color: $blue;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Lato', 'Corbel', sans-serif;
+  font-weight: 500;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  background-color: darken($blue, 10%);
+}
+
+.embeddable-buttondown-form p.buttondown-credit {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: #757883;
+}
+
+/* Custom layout support */
+.column-page {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2rem;
+}
+
+.column-body {
+  grid-column: 1;
+}
+
+.column-margin {
+  grid-column: 2;
+}
+
+/* For mobile devices */
+@media (max-width: 991px) {
+  .column-page {
+    display: block;
+  }
+  
+  .column-margin {
+    margin-top: 2rem;
+  }
+  
+  .newsletter-sidebar {
+    max-width: 100%;
+  }
+}
+
 .listing-box-body {
     font-family: 'Lato', 'Corbel', sans-serif;
     font-size: 14px;

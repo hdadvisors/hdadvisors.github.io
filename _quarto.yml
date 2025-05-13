@@ -36,9 +36,9 @@ website:
         menu:
           - href: about.qmd
           - href: staff.qmd
-      - text: Services
+      - text: What We Do
         menu:
-          - text: Overview
+          - text: Services
             href: services.qmd
       - text: Blog
         href: blog/index.qmd

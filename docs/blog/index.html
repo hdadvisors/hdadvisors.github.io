@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c1a3c50fa4b69a9a9d2c9ba03bb04898.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a48c28944a07dcfb51377075526f4575.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,13 +170,13 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Services</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-what-we-do" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">What We Do</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-what-we-do">    
         <li>
     <a class="dropdown-item" href="../services.html">
- <span class="dropdown-text">Overview</span></a>
+ <span class="dropdown-text">Services</span></a>
   </li>  
     </ul>
   </li>
@@ -225,7 +225,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Housing Starts</h1>
-<p class="subtitle lead">Insights on affordable housing, policy research, and data visualization</p>
+<p class="subtitle lead">Insights on housing in Virginia</p>
 </div>
 
 
@@ -242,6 +242,51 @@ window.Quarto = {
 </header>
 
 
+<div class="banner-container banner-image">
+<div class="banner-image banner-md overlay-brand text-right" style="background-image: url('../images/rvabanner_1.JPG');">
+<section id="housing-starts" class="level2 text-light banner-text">
+<h2 class="text-light anchored" data-anchor-id="housing-starts">Housing Starts</h2>
+<section id="insights-on-housing-in-virginia" class="level3 text-light">
+<h3 class="text-light anchored" data-anchor-id="insights-on-housing-in-virginia">Insights on housing in Virginia</h3>
+</section>
+</section>
+</div>
+</div>
+<div id="listing-container">
+
+</div>
+<!-- Compact newsletter subscription form -->
+<div style="max-width: 600px; margin: 2rem auto; padding: 1rem; background-color: #F6F5F3; border-radius: 8px; border: 1px solid #8baeaa; font-size: 0.9rem;">
+<h3 style="margin-top: 0; margin-bottom: 0.5rem; color: #445ca9;" class="anchored">
+Subscribe to Our Newsletter
+</h3>
+<form action="https://buttondown.com/api/emails/embed-subscribe/hdadvisors" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/hdadvisors', 'popupwindow')" style="display: flex; flex-direction: column;">
+  <div style="display: flex; gap: 0.5rem; margin-bottom: 0.25rem;">
+    <input type="email" name="email" id="bd-email" placeholder="Your email address" style="flex: 1; padding: 0.4rem; border: 1px solid #ced4da; border-radius: 4px; font-size: 0.9rem;">
+    <input type="submit" value="Subscribe" style="background-color: #445ca9; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">
+  </div>
+  <p style="margin-top: 0.25rem; margin-bottom: 0; font-size: 0.75rem; color: #757883;">
+    Get updates on affordable housing research and data visualization
+  </p>
+</form>
+</div>
+<div class="content-listing-container">
+<script>
+// Move the listing to appear before the newsletter
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the container where we want to insert the listing
+  const listingContainer = document.getElementById('listing-container');
+  
+  // Find the automatically generated listing
+  const listing = document.querySelector('.quarto-listing');
+  
+  // If both elements exist, move the listing into our container
+  if (listingContainer && listing) {
+    listingContainer.appendChild(listing);
+  }
+});
+</script>
+</div>
 
 
 

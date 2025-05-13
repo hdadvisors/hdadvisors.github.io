@@ -1,0 +1,95 @@
+<form id="contact-form">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+  </div>
+  
+  <button type="submit">Send Message</button>
+  <div id="form-status"></div>
+</form>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contact-form');
+    const formStatus = document.getElementById('form-status');
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      formStatus.innerHTML = 'Sending your message...';
+      
+      const formData = new FormData(form);
+      const data = {};
+      formData.forEach((value, key) => {
+        data[key] = value;
+      });
+      
+      fetch('https://script.google.com/macros/s/AKfycbyP6CaJ0M4Io9vhPVZA88KuVf09WzEDkh9q4yg2DXFH5BQDNj-zSUQfHMDzb5k_at2X/exec', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        mode: 'no-cors'
+      })
+      .then(() => {
+        formStatus.innerHTML = 'Thank you! Your message has been sent.';
+        form.reset();
+      })
+      .catch(error => {
+        formStatus.innerHTML = 'Sorry, there was a problem sending your message. Please try again.';
+        console.error('Error:', error);
+      });
+    });
+  });
+</script>
+
+<style>
+  #contact-form {
+    margin: 2rem 0;
+  }
+  
+  #contact-form div {
+    margin-bottom: 1rem;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact-form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #contact-form button:hover {
+    background-color: #004494;
+  }
+  
+  #form-status {
+    margin-top: 1rem;
+  }
+</style>

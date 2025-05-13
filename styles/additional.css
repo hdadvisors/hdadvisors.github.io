@@ -67,6 +67,92 @@ body {
     left: 0;
     z-index: 1030;
   }
+
+/* Custom layout for blog post with sidebar */
+.column-page {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.column-body {
+  grid-column: 1;
+}
+
+.column-margin {
+  grid-column: 2;
+}
+
+/* Newsletter sidebar styling */
+.newsletter-sidebar {
+  background-color: #F6F5F3;
+  border-radius: 8px;
+  border: 1px solid #8baeaa;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.embeddable-buttondown-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.embeddable-buttondown-form label {
+  font-family: 'Roboto Slab', 'Georgia', serif;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #445ca9;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: 'Lato', 'Corbel', sans-serif;
+  width: 100%;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  background-color: #445ca9;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Lato', 'Corbel', sans-serif;
+  font-weight: 500;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  background-color: #384b87;
+}
+
+.embeddable-buttondown-form .buttondown-credit {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: #757883;
+}
+
+/* For mobile devices */
+@media (max-width: 991px) {
+  .column-page {
+    display: block;
+  }
+  
+  .column-margin {
+    margin-top: 2rem;
+  }
+  
+  .newsletter-sidebar {
+    max-width: 100%;
+  }
+}
   
   /* Full-width banner components */
 .banner-container {
@@ -530,75 +616,45 @@ body {
   }
 }
 
-/* Service card specific styling */
-.service-card {
-  border: 1px solid #e8e8e8;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  margin-bottom: 30px;
-}
-
-.service-card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transform: translateY(-3px);
-}
-
-/* Image container for service cards */
+/* Service image specific fixes */
 .service-image-container {
-  width: 100%;
-  height: 220px; /* Fixed height for image area - adjust as needed */
+  margin: -20px -20px 15px -20px; /* Extend to edges */
+  height: 220px; /* Fixed height for consistency */
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  width: calc(100% + 40px); /* Ensure full width */
 }
 
-/* Image styles to fill container */
 .service-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* This makes the image cover the container */
+  object-fit: cover;
   object-position: center;
-  margin: 0;
-  padding: 0;
-  display: block;
+  transition: transform 0.5s ease;
 }
 
-/* Content area styles */
-.service-content {
-  padding: 1.25rem;
+/* Ensure hover effects still work */
+.listing-box:hover .service-image {
+  transform: scale(1.05);
+}
+
+/* Remove unwanted spacing */
+.listing-box.service-box {
+  padding-top: 0;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
 }
 
-/* Title styles */
-.service-title {
-  font-family: 'Roboto Slab', Georgia, serif;
-  font-size: 1.25rem;
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  color: #445ca9; /* Your brand blue */
+.service-content {
+  padding: 15px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Body content styles */
-.service-body {
-  flex-grow: 1;
-}
-
-/* Responsive image heights */
-@media (min-width: 992px) {
+/* Ensure consistent sizing on mobile */
+@media (max-width: 767px) {
   .service-image-container {
-    height: 240px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .service-image-container {
-    height: 260px;
+    height: 180px;
   }
 }
