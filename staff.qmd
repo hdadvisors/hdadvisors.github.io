@@ -2,7 +2,10 @@
 format: 
   html:
     page-layout: full
+    css: styles/additional.css
 ---
+<!-- Additional div to help with layout -->
+<div class="full-width-content">
 
 ::: {.banner-fullwidth .banner-image}
 ::: {.banner-image .banner-md .overlay-brand .text-right style="background-image: url('images/rvabanner_2.JPG');"}
@@ -16,12 +19,12 @@ format:
 ::: {.container}
 ::: {.row}
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
+::: {.staff .listing-box.has-image}
+::: {.staff .listing-box-image}
 ![](images/team/erica.jpg){.listing-box-image}
 :::
 
-::: {.listing-box-content}
+::: {.staff .listing-box-content}
 ### Erica Sims {.listing-box-title}
 
 ::: {.listing-box-subtitle}
@@ -38,12 +41,12 @@ You should talk to Erica if you need help with real estate finance, tax credits,
 :::
 
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
+::: {.staff .listing-box.has-image}
+::: {.staff .listing-box-image}
 ![](images/team/jtk.jpg){.listing-box-image}
 :::
 
-::: {.listing-box-content}
+::: {.staff .listing-box-content}
 ### Jonathan Knopf {.listing-box-title}
 
 ::: {.listing-box-subtitle}
@@ -61,12 +64,12 @@ You should talk to Jonathan if you need help with housing policy, data, or more.
 :::
 
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
+::: {.staff .listing-box.has-image}
+::: {.staff .listing-box-image}
 ![](images/team/eric.jpg){.listing-box-image}
 :::
 
-::: {.listing-box-content}
+::: {.staff .listing-box-content}
 ### Eric Mai {.listing-box-title}
 
 ::: {.listing-box-subtitle}
@@ -88,12 +91,12 @@ You should talk to Eric if you need help with pre-development, housing research,
 ::: {.container}
 ::: {.row}
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
+::: {.staff .listing-box.has-image}
+::: {.staff .listing-box-image}
 ![](images/team/amelie.jpg){.listing-box-image}
 :::
 
-::: {.listing-box-content}
+::: {.staff .listing-box-content}
 ### Amelie Rives {.listing-box-title}
 
 ::: {.listing-box-subtitle}
@@ -111,12 +114,12 @@ You should talk to Amelie if you need help with housing program design, communit
 :::
 
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
+::: {.staff .listing-box.has-image}
+::: {.staff .listing-box-image}
 ![](images/team/maria.jpg){.listing-box-image}
 :::
 
-::: {.listing-box-content}
+::: {.staff .listing-box-content}
 ### Maria Dougherty {.listing-box-title}
 
 ::: {.listing-box-subtitle}
@@ -134,12 +137,12 @@ You should talk to Maria if you need help with housing policy, data analysis, re
 :::
 
 ::: {.col-md-4}
-::: {.listing-box .has-image}
-::: {.listing-box-image-container}
+::: {.staff .listing-box.has-image}
+::: {.staff .listing-box-image}
 ![](images/team/kendra.jpg){.listing-box-image}
 :::
 
-::: {.listing-box-content}
+::: {.staff .listing-box-content}
 ### Kendra Mamula {.listing-box-title}
 
 ::: {.listing-box-subtitle}
@@ -157,3 +160,5 @@ Kendra helps us with managing our schedules, handling communications, entering d
 :::
 :::
 :::
+
+</div> <!-- close the full-width-content div -->

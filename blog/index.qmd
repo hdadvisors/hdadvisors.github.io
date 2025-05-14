@@ -1,6 +1,4 @@
 ---
-title: "Housing Starts"
-subtitle: "Insights on housing in Virginia"
 listing:
   contents: posts
   sort: "date desc"

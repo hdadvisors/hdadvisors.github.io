@@ -2,7 +2,10 @@
 format: 
   html:
     page-layout: full
+    css: styles/additional.css
 ---
+<!-- Additional div to help with layout -->
+<div class="full-width-content">
 ::: {.banner-fullwidth .banner-image }
 ::: {.banner-image .banner-md .overlay-brand .text-right style="background-image: url('images/rvabanner_4.JPG');"}
 ::: {.banner-text}
@@ -53,4 +56,6 @@ This experience gives us an intimate knowledge of federal and local housing prog
     -   Historic Tax Credits
 
     -   New Market Tax Credits
+
+</div> <!-- close the full-width-content div -->
 
