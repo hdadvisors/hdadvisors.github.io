@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a48c28944a07dcfb51377075526f4575.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles/additional.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -154,150 +154,200 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const carousels = document.querySelectorAll('.carousel-container');
+<!-- Reference the external carousel JS file -->
+<script src="js/carousel.js"></script>
+
+<!-- Custom styles for true full-width layout -->
+<style>
+  /* Override Quarto's default container constraints */
+  #quarto-content {
+    padding: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
   
-  carousels.forEach(carousel => {
-    const slides = carousel.querySelectorAll('.carousel-slide');
-    const dots = carousel.querySelectorAll('.carousel-nav-dot');
-    const prevBtn = carousel.querySelector('.carousel-arrow-prev');
-    const nextBtn = carousel.querySelector('.carousel-arrow-next');
-    
-    let currentSlide = 0;
-    let interval = null;
-    const intervalTime = parseInt(carousel.getAttribute('data-interval') || 5000);
-    
-    // Initialize the first slide
-    if (slides.length > 0) {
-      slides[0].classList.add('active');
-      if (dots.length > 0) {
-        dots[0].classList.add('active');
-      }
+  .quarto-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  main.content {
+    padding: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  
+  /* Fix for content containers to properly handle width */
+  .full-width-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Content section styles */
+  .content-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+  
+  /* Make carousel text fully responsive and prevent cut-off */
+  .carousel-text-right {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 5%;
+    padding-right: 0;
+  }
+  
+  .carousel-text-left {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 5%;
+    padding-left: 0;
+  }
+  
+  .carousel-text-center {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  /* Fix carousel text at smaller screens */
+  @media (max-width: 768px) {
+    .carousel-text {
+      width: 80%;
+      padding: 1rem;
     }
     
-    // Function to change slide
-    function goToSlide(index) {
-      // Remove active class from all slides
-      slides.forEach(slide => {
-        slide.classList.remove('active');
-      });
-      
-      // Remove active class from all dots
-      dots.forEach(dot => {
-        dot.classList.remove('active');
-      });
-      
-      // Add active class to current slide and dot
-      currentSlide = (index + slides.length) % slides.length;
-      slides[currentSlide].classList.add('active');
-      if (dots.length > 0 && dots[currentSlide]) {
-        dots[currentSlide].classList.add('active');
-      }
+    .carousel-text-right, .carousel-text-left {
+      margin: 0 auto;
+      text-align: center;
     }
-    
-    // Auto-advance slides
-    function startInterval() {
-      if (interval) {
-        clearInterval(interval);
-      }
-      
-      interval = setInterval(() => {
-        goToSlide(currentSlide + 1);
-      }, intervalTime);
+  }
+  
+  /* Custom gradient text styling */
+  .gradient-text {
+    background: linear-gradient(
+      45deg,
+      #e9ab3f,
+      #445ca9,
+      #445ca9,
+      #8baeaa,
+      #e76f52,
+      #445ca9,
+      #e9ab3f
+    );
+    background-size: 800%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    animation: animated_text 30s ease-in-out infinite;
+    -moz-animation: animated_text 30s ease-in-out infinite;
+    -webkit-animation: animated_text 30s ease-in-out infinite;
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+  }
+  
+  @keyframes animated_text {
+    0% {
+      background-position: 0px 50%;
     }
-    
-    // Initialize auto-advance
-    startInterval();
-    
-    // Event listeners for navigation dots
-    dots.forEach((dot, index) => {
-      dot.addEventListener('click', () => {
-        goToSlide(index);
-        startInterval(); // Reset interval after manual navigation
-      });
-    });
-    
-    // Event listeners for arrow buttons
-    if (prevBtn) {
-      prevBtn.addEventListener('click', () => {
-        goToSlide(currentSlide - 1);
-        startInterval(); // Reset interval after manual navigation
-      });
+    50% {
+      background-position: 100% 50%;
     }
-    
-    if (nextBtn) {
-      nextBtn.addEventListener('click', () => {
-        goToSlide(currentSlide + 1);
-        startInterval(); // Reset interval after manual navigation
-      });
+    100% {
+      background-position: 0px 50%;
     }
-    
-    // Pause auto-advance on hover (optional)
-    carousel.addEventListener('mouseenter', () => {
-      clearInterval(interval);
-    });
-    
-    carousel.addEventListener('mouseleave', () => {
-      startInterval();
-    });
-  });
-});
-</script>
-<div class="carousel-fullwidth">
-<div class="carousel-container" data-interval="6000">
-<div class="carousel-slides carousel-height-lg">
-<div class="carousel-fullwidth carousel-slides">
-<div class="carousel-slide overlay-brand" style="background-image: url('images/stock/financial.jpeg');">
-<section id="we-help-build-organizations" class="level2 text-light carousel-text carousel-text-center">
-<h2 class="text-light anchored" data-anchor-id="we-help-build-organizations">We help build organizations</h2>
-</section>
-</div>
-<div class="carousel-slide overlay-green" style="background-image: url('images/stock/forum.jpeg');">
-<section id="we-help-research-complex-issues" class="level2 text-light carousel-text carousel-text-right">
-<h2 class="text-light anchored" data-anchor-id="we-help-research-complex-issues">We help research complex issues</h2>
-</section>
-</div>
-<div class="carousel-slide overlay-coral" style="background-image: url('images/stock/construction.jpeg');">
-<section id="we-help-build-affordable-housing" class="level2 text-light carousel-text carousel-text-right">
-<h2 class="text-light anchored" data-anchor-id="we-help-build-affordable-housing">We help build affordable housing</h2>
-</section>
-</div>
-<div class="carousel-nav">
-<div class="carousel-nav-dot">
+  }
+</style>
 
-</div>
-<div class="carousel-nav-dot">
-
-</div>
-<div class="carousel-nav-dot">
-
-</div>
-</div>
-<div class="carousel-arrow carousel-arrow-prev">
-<p>←</p>
-</div>
-<div class="carousel-arrow carousel-arrow-next">
-<p>→</p>
-</div>
-</div>
-</div>
-</div>
+<!-- Header content section -->
+<div class="full-width-container">
+  <div class="content-section">
+    <h1 class="text-center"><span class="gradient-text">Your affordable housing experts.</span></h1>
+    <p class="text-center mx-auto" style="max-width: 800px;">Housing and community development is complex. We provide research, development advisory, and practical solutions to help organizations build capacity and create more affordable housing.</p>
+  </div>
 </div>
 
+<!-- Full-width carousel section -->
+<div class="carousel-section" style="width: 100vw; max-width: 100vw; overflow-x: hidden;">
+  <div class="carousel-container" data-interval="6000">
+    <div class="carousel-slides carousel-height-lg">
+      <div class="carousel-slide overlay-brand" style="background-image: url('images/stock/financial.jpeg');">
+        <div class="carousel-text carousel-text-center">
+          <h2 class="text-light">We help build organizations</h2>
+        </div>
+      </div>
+
+      <div class="carousel-slide overlay-green" style="background-image: url('images/stock/forum.jpeg');">
+        <div class="carousel-text carousel-text-right">
+          <h2 class="text-light">We help research complex issues</h2>
+        </div>
+      </div>
+
+      <div class="carousel-slide overlay-coral" style="background-image: url('images/stock/construction.jpeg');">
+        <div class="carousel-text carousel-text-right">
+          <h2 class="text-light">We help build affordable housing</h2>
+        </div>
+      </div>
+
+      <div class="carousel-nav">
+        <div class="carousel-nav-dot"></div>
+        <div class="carousel-nav-dot"></div>
+        <div class="carousel-nav-dot"></div>
+      </div>
+
+      <div class="carousel-arrow carousel-arrow-prev">
+        ←
+      </div>
+
+      <div class="carousel-arrow carousel-arrow-next">
+        →
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Content section after carousel -->
+<div class="full-width-container">
+  <div class="content-section">
+    <h2 class="text-center">Our Services</h2>
+    <p class="text-center mx-auto" style="max-width: 800px;">HD Advisors offers a wide range of services to help organizations navigate the complex landscape of housing and community development. Our team of experts brings decades of experience to help you achieve your goals.</p>
+
+    <div class="row mt-5">
+      <div class="col-md-4 mb-4">
+        <h3>Research &amp; Data Analysis</h3>
+        <p>We provide comprehensive research services to help you understand the housing landscape and make informed decisions.</p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h3>Development Advisory</h3>
+        <p>Navigate the complex process of affordable housing development with our expert guidance.</p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h3>Capacity Building</h3>
+        <p>We help organizations build the internal capacity needed to effectively deliver and sustain affordable housing initiatives.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-</main> <!-- /main -->
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -380,6 +430,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -490,6 +542,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

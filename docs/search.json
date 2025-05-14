@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "services/dataviz.html",
+    "href": "services/dataviz.html",
+    "title": "dataviz",
+    "section": "",
+    "text": "Our team transforms complex housing data into clear, compelling visual formats that make information accessible to diverse audiences. We create interactive dashboards, infographics, maps, and charts that highlight key patterns and relationships in housing markets and needs. Our visualization work supports both strategic planning and public communication, helping stakeholders understand housing trends and their implications. We specialize in presenting technical information in ways that resonate with non-technical audiences, using visualization techniques that reveal insights that might be missed in traditional data presentations."
+  },
+  {
+    "objectID": "services/program.html",
+    "href": "services/program.html",
+    "title": "program",
+    "section": "",
+    "text": "We provide comprehensive support for launching new housing programs and assessing the effectiveness of existing initiatives. Our implementation services include creating operational procedures, training staff, developing marketing strategies, and establishing monitoring systems. Our evaluations combine process and outcome measures to determine whether programs are achieving their goals efficiently and equitably. We identify specific recommendations for program refinement based on performance data and stakeholder feedback. Our approach emphasizes continuous improvement rather than one-time assessment, creating systems that allow programs to adapt to changing conditions and incorporate new learning."
+  },
+  {
+    "objectID": "services/assessments.html",
+    "href": "services/assessments.html",
+    "title": "assessments",
+    "section": "",
+    "text": "Our comprehensive housing needs assessments combine quantitative data analysis with qualitative research to provide a nuanced understanding of local housing challenges and opportunities. We analyze demographic trends, housing market conditions, and economic indicators while gathering input from residents, service providers, and other stakeholders. Our assessments include detailed gap analyses that identify specific housing needs by income level, household type, and special populations. We translate technical findings into clear recommendations for housing production targets, policy changes, and program investments that respond to identified needs and market realities."
+  },
+  {
+    "objectID": "services/capacity.html",
+    "href": "services/capacity.html",
+    "title": "capacity",
+    "section": "",
+    "text": "HDAdvisors develops innovative housing programs and policies tailored to specific community needs and market conditions. We identify best practices from across the country and adapt them to local contexts, ensuring that new initiatives build on proven models while responding to unique local circumstances. Our design process incorporates input from multiple stakeholders and addresses implementation considerations from the outset. We create detailed program guidelines, application materials, and evaluation frameworks that support efficient administration while achieving intended outcomes. Our approach emphasizes programs that are financially sustainable, administratively feasible, and responsive to evolving community needs."
+  },
+  {
+    "objectID": "services/research.html",
+    "href": "services/research.html",
+    "title": "research",
+    "section": "",
+    "text": "We conduct targeted research on specific housing topics that combines rigorous academic methods with practical applications. Our research projects include literature reviews, case studies of best practices, program evaluations, and policy analyses tailored to specific community contexts. We design research methodologies that balance quantitative and qualitative approaches to provide holistic understanding of complex housing challenges. Our findings are presented in accessible formats that bridge the gap between academic research and practical implementation, giving clients actionable information to guide decision-making."
+  },
+  {
+    "objectID": "staff/amelie.html#amelie-rives",
+    "href": "staff/amelie.html#amelie-rives",
+    "title": "HDAdvisors",
+    "section": "Amelie Rives",
+    "text": "Amelie Rives\n\nSenior Associate\nAmelie Rives came to HDAdvisors from the CDFI field, where she did financial counseling and economic-inclusion work. She received her B.A. in Sociology from Roanoke College and a Master in Urban and Regional Planning from Virginia Commonwealth University. In her graduate work,, she focused on displacement and asset-based community development, culminating in a participatory equitable development plan with Virginia Community Voice, where she still volunteers now. Amelie enjoys cooking and baking gluten free treats, spending time with her rescue dog, and riding her bike to the James River.\nAmelie is skilled at:"
+  },
+  {
+    "objectID": "staff/jonathan.html#jonathan-knopf",
+    "href": "staff/jonathan.html#jonathan-knopf",
+    "title": "HDAdvisors",
+    "section": "Jonathan Knopf",
+    "text": "Jonathan Knopf\n\nVice President\nJonathan directs HDA’s research and program efforts across the commonwealth. This work includes regional and local housing needs assessments, policy generation and implementation, and communications strategies. He finds passion in telling data-driven stories about Virginia’s housing challenges and regularly presents at conferences and events throughout the state.\nJonathan has a Masters in Urban and Regional Planning from Virginia Commonwealth University, where he’s also taught an introductory urban planning course since 2018. Jonathan serves on the Robinson Street Association board and the Housing Families First junior board.\nJonathan is skilled at:"
+  },
+  {
+    "objectID": "staff/eric.html#eric-mai",
+    "href": "staff/eric.html#eric-mai",
+    "title": "HDAdvisors",
+    "section": "Eric Mai",
+    "text": "Eric Mai\n\nVice President\nEric has worked in the field of research for over a decade. Before entering the affordable housing industry, Eric worked as a field archaeologist in the Mid-Atlantic for six years. He received his Masters of Archaeology and Heritage Management from the University of Leicester and later his Masters in Urban and Regional Planning from Virginia Commonwealth University. \nHis interdisciplinary background in art history, archaeology, and urban planning brings a distinctive perspective to affordable housing policy and research. Studying how communities throughout history designed and adapted their living spaces has given him unique insights into sustainable urban development and community-centered housing solutions. This historical lens enhances his approach to modern housing challenges, allowing me to identify time-tested patterns in how successful communities balance density, affordability, and quality of life.\nEric currently serves on nonprofit affordable housing boards, including RVA CDC and Commonwealth Catholic Charities Housing Corporation."
+  },
+  {
     "objectID": "styles.html",
     "href": "styles.html",
     "title": "HDAdvisors Style Guide",
@@ -168,62 +224,6 @@
     "text": "Using This Style Guide\nThis page demonstrates all the custom styles available in the HDAdvisors Quarto website. You can copy and paste these elements into your own pages, adapting them as needed. Refer to the class names in each section to understand how to apply these styles to your content."
   },
   {
-    "objectID": "staff/maria.html#maria-dougherty",
-    "href": "staff/maria.html#maria-dougherty",
-    "title": "HDAdvisors",
-    "section": "Maria Dougherty",
-    "text": "Maria Dougherty\n\nSenior Associate\nMaria Tova Enriquez Dougherty joined HDAdvisors in June 2022 as a Senior Associate. Maria holds a Master’s degree in Urban and Regional Planning from Virginia Commonwealth University, where she specialized in community-engaged urban design and sustainability planning, as well as a Joint Bachelor’s from The College of William and Mary and the University of St Andrews. \nShe is involved on a variety projects for the company, including providing policy research and programmatic development for HousingForward Virginia and the Virginia Statewide Community Land Trust (VSCLT) and affordable housing real estate development.\nMaria is skilled at:"
-  },
-  {
-    "objectID": "staff/jonathan.html#jonathan-knopf",
-    "href": "staff/jonathan.html#jonathan-knopf",
-    "title": "HDAdvisors",
-    "section": "Jonathan Knopf",
-    "text": "Jonathan Knopf\n\nVice President\nJonathan directs HDA’s research and program efforts across the commonwealth. This work includes regional and local housing needs assessments, policy generation and implementation, and communications strategies. He finds passion in telling data-driven stories about Virginia’s housing challenges and regularly presents at conferences and events throughout the state.\nJonathan has a Masters in Urban and Regional Planning from Virginia Commonwealth University, where he’s also taught an introductory urban planning course since 2018. Jonathan serves on the Robinson Street Association board and the Housing Families First junior board.\nJonathan is skilled at:"
-  },
-  {
-    "objectID": "staff/eric.html#eric-mai",
-    "href": "staff/eric.html#eric-mai",
-    "title": "HDAdvisors",
-    "section": "Eric Mai",
-    "text": "Eric Mai\n\nVice President\nEric has worked in the field of research for over a decade. Before entering the affordable housing industry, Eric worked as a field archaeologist in the Mid-Atlantic for six years. He received his Masters of Archaeology and Heritage Management from the University of Leicester and later his Masters in Urban and Regional Planning from Virginia Commonwealth University. \nHis interdisciplinary background in art history, archaeology, and urban planning brings a distinctive perspective to affordable housing policy and research. Studying how communities throughout history designed and adapted their living spaces has given him unique insights into sustainable urban development and community-centered housing solutions. This historical lens enhances his approach to modern housing challenges, allowing me to identify time-tested patterns in how successful communities balance density, affordability, and quality of life.\nEric currently serves on nonprofit affordable housing boards, including RVA CDC and Commonwealth Catholic Charities Housing Corporation."
-  },
-  {
-    "objectID": "services/research.html",
-    "href": "services/research.html",
-    "title": "research",
-    "section": "",
-    "text": "We conduct targeted research on specific housing topics that combines rigorous academic methods with practical applications. Our research projects include literature reviews, case studies of best practices, program evaluations, and policy analyses tailored to specific community contexts. We design research methodologies that balance quantitative and qualitative approaches to provide holistic understanding of complex housing challenges. Our findings are presented in accessible formats that bridge the gap between academic research and practical implementation, giving clients actionable information to guide decision-making."
-  },
-  {
-    "objectID": "services/policy.html",
-    "href": "services/policy.html",
-    "title": "policy",
-    "section": "",
-    "text": "HDAdvisors develops innovative housing programs and policies tailored to specific community needs and market conditions. We identify best practices from across the country and adapt them to local contexts, ensuring that new initiatives build on proven models while responding to unique local circumstances. Our design process incorporates input from multiple stakeholders and addresses implementation considerations from the outset. We create detailed program guidelines, application materials, and evaluation frameworks that support efficient administration while achieving intended outcomes. Our approach emphasizes programs that are financially sustainable, administratively feasible, and responsive to evolving community needs."
-  },
-  {
-    "objectID": "services/development.html",
-    "href": "services/development.html",
-    "title": "development",
-    "section": "",
-    "text": "Our team guides clients through every phase of the development process, from initial concept to project completion. We assist with site selection, zoning analysis, architectural coordination, construction oversight, and lease-up planning. Drawing on decades of hands-on development experience, we anticipate challenges before they arise and create realistic timelines and budgets that account for the complexities of affordable housing development. Our approach emphasizes long-term sustainability while meeting immediate community needs."
-  },
-  {
-    "objectID": "services/capacity.html",
-    "href": "services/capacity.html",
-    "title": "capacity",
-    "section": "",
-    "text": "HDAdvisors develops innovative housing programs and policies tailored to specific community needs and market conditions. We identify best practices from across the country and adapt them to local contexts, ensuring that new initiatives build on proven models while responding to unique local circumstances. Our design process incorporates input from multiple stakeholders and addresses implementation considerations from the outset. We create detailed program guidelines, application materials, and evaluation frameworks that support efficient administration while achieving intended outcomes. Our approach emphasizes programs that are financially sustainable, administratively feasible, and responsive to evolving community needs."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "HDAdvisors",
-    "section": "",
-    "text": "←\n\n\n→"
-  },
-  {
     "objectID": "blog/posts/2025-05-10/index.html",
     "href": "blog/posts/2025-05-10/index.html",
     "title": "Your First Blog Post",
@@ -243,6 +243,34 @@
     "title": "HDAdvisors",
     "section": "",
     "text": "HDAdvisors (HDA) is a collaboration of experienced community development professionals launched in 2006. HDA provides housing-related consulting services to non-profits, housing authorities, local governments, lenders, and other community development organizations. HDA is led by Erica Sims, who has spent 20 years in affordable development as both a developer and consultant.\nHDA provides feasibility, financial and development consulting services for affordable housing and other community development projects. HDA is unique because its principals have spent decades as the heads of for-profit and non-profit development corporations and policy organizations in multiple states, building new construction and rehabilitation projects for affordable housing.\nThis experience gives us an intimate knowledge of federal and local housing programs and what “works” and what does not. This development experience enables HDA to understand housing policy from the perspective of a practitioner in the private sector, to assist clients in creating projects that are workable in the real world. Our work includes: ​"
+  },
+  {
+    "objectID": "staff/kendra.html",
+    "href": "staff/kendra.html",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "Kendra has a background in…"
+  },
+  {
+    "objectID": "staff/kendra.html#kendra-mamula",
+    "href": "staff/kendra.html#kendra-mamula",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "Kendra has a background in…"
+  },
+  {
+    "objectID": "staff/maria.html#maria-dougherty",
+    "href": "staff/maria.html#maria-dougherty",
+    "title": "HDAdvisors",
+    "section": "Maria Dougherty",
+    "text": "Maria Dougherty\n\nSenior Associate\nMaria Tova Enriquez Dougherty joined HDAdvisors in June 2022 as a Senior Associate. Maria holds a Master’s degree in Urban and Regional Planning from Virginia Commonwealth University, where she specialized in community-engaged urban design and sustainability planning, as well as a Joint Bachelor’s from The College of William and Mary and the University of St Andrews. \nShe is involved on a variety projects for the company, including providing policy research and programmatic development for HousingForward Virginia and the Virginia Statewide Community Land Trust (VSCLT) and affordable housing real estate development.\nMaria is skilled at:"
+  },
+  {
+    "objectID": "staff/erica.html#erica-sims",
+    "href": "staff/erica.html#erica-sims",
+    "title": "HDAdvisors",
+    "section": "Erica Sims",
+    "text": "Erica Sims\n\nPresident\nErica has worked in the non-profit management, affordable housing development, and community organizing fields for over 20 years. Her focus has been social and economic justice through housing and economic development. Ms. Sims has held private sector, nonprofit, and government roles and has overseen the development of over 2,500 units of affordable housing and 50,000 square feet of commercial development space in new construction and renovation projects.\nPrior to joining HDA in 2017, she was the Deputy Executive Director of Mutual Housing Association of New York, an non-profit affordable housing developer, owner, and manager with a portfolio over 1,500 units of affordable housing. She received a Bachelor’s in Economics and a Bachelor’s in Urban Planning from the University of Michigan and a Masters of Business Administration from the Massachusetts Institute of Technology. \nDuring her tenure at HDAdvisors she served as Maggie Walker Community Land Trust’s CEO, Virginia Statewide Community Land Trust’s CEO and HousingForward’s Co-Executive Director."
   },
   {
     "objectID": "CLAUDE.html",
@@ -273,32 +301,11 @@
     "text": "Technology Stack:\n\nQuarto for static site generation\nR/RStudio as the development environment\nGitHub Pages for hosting (using the docs/ directory)\n\nContent Structure:\n\nEach page is defined by a .qmd file in the root directory\nThe site configuration is in _quarto.yml\nThe site is styled using the Cosmo theme with custom CSS in styles.css\n\nFile Organization:\n\n.qmd files: Source content files with Markdown and optional executable code blocks\ndocs/: Generated HTML site (don’t edit directly)\n_quarto.yml: Site configuration (navigation, theme, output settings)"
   },
   {
-    "objectID": "services/assessments.html",
-    "href": "services/assessments.html",
-    "title": "assessments",
-    "section": "",
-    "text": "Our comprehensive housing needs assessments combine quantitative data analysis with qualitative research to provide a nuanced understanding of local housing challenges and opportunities. We analyze demographic trends, housing market conditions, and economic indicators while gathering input from residents, service providers, and other stakeholders. Our assessments include detailed gap analyses that identify specific housing needs by income level, household type, and special populations. We translate technical findings into clear recommendations for housing production targets, policy changes, and program investments that respond to identified needs and market realities."
-  },
-  {
-    "objectID": "services/dataviz.html",
-    "href": "services/dataviz.html",
-    "title": "dataviz",
-    "section": "",
-    "text": "Our team transforms complex housing data into clear, compelling visual formats that make information accessible to diverse audiences. We create interactive dashboards, infographics, maps, and charts that highlight key patterns and relationships in housing markets and needs. Our visualization work supports both strategic planning and public communication, helping stakeholders understand housing trends and their implications. We specialize in presenting technical information in ways that resonate with non-technical audiences, using visualization techniques that reveal insights that might be missed in traditional data presentations."
-  },
-  {
     "objectID": "services/management.html",
     "href": "services/management.html",
     "title": "management",
     "section": "",
     "text": "HDAdvisors provides comprehensive program management services for affordable housing initiatives at all scales, from individual projects to organization-wide portfolios. We oversee the full lifecycle of housing programs, establishing clear objectives, detailed work plans, and robust monitoring systems that ensure accountability and measurable outcomes. Our approach combines strategic vision with attention to operational details, allowing us to manage complex initiatives with multiple stakeholders and funding sources. We excel at coordinating cross-functional teams, balancing competing priorities, and adapting to changing circumstances while maintaining focus on core program goals. Our program management services include regular reporting to stakeholders, risk assessment and mitigation strategies, and systems for capturing and applying lessons learned. We bring particular expertise to programs involving multiple partners, helping to clarify roles and responsibilities, establish effective communication channels, and create shared accountability frameworks that support collaborative success."
-  },
-  {
-    "objectID": "services/program.html",
-    "href": "services/program.html",
-    "title": "program",
-    "section": "",
-    "text": "We provide comprehensive support for launching new housing programs and assessing the effectiveness of existing initiatives. Our implementation services include creating operational procedures, training staff, developing marketing strategies, and establishing monitoring systems. Our evaluations combine process and outcome measures to determine whether programs are achieving their goals efficiently and equitably. We identify specific recommendations for program refinement based on performance data and stakeholder feedback. Our approach emphasizes continuous improvement rather than one-time assessment, creating systems that allow programs to adapt to changing conditions and incorporate new learning."
   },
   {
     "objectID": "services/speaking.html",
@@ -308,31 +315,17 @@
     "text": "We are go-to experts to talk about affordable housing in Virginia."
   },
   {
-    "objectID": "staff/amelie.html#amelie-rives",
-    "href": "staff/amelie.html#amelie-rives",
-    "title": "HDAdvisors",
-    "section": "Amelie Rives",
-    "text": "Amelie Rives\n\nSenior Associate\nAmelie Rives came to HDAdvisors from the CDFI field, where she did financial counseling and economic-inclusion work. She received her B.A. in Sociology from Roanoke College and a Master in Urban and Regional Planning from Virginia Commonwealth University. In her graduate work,, she focused on displacement and asset-based community development, culminating in a participatory equitable development plan with Virginia Community Voice, where she still volunteers now. Amelie enjoys cooking and baking gluten free treats, spending time with her rescue dog, and riding her bike to the James River.\nAmelie is skilled at:"
-  },
-  {
-    "objectID": "staff/erica.html#erica-sims",
-    "href": "staff/erica.html#erica-sims",
-    "title": "HDAdvisors",
-    "section": "Erica Sims",
-    "text": "Erica Sims\n\nPresident\nErica has worked in the non-profit management, affordable housing development, and community organizing fields for over 20 years. Her focus has been social and economic justice through housing and economic development. Ms. Sims has held private sector, nonprofit, and government roles and has overseen the development of over 2,500 units of affordable housing and 50,000 square feet of commercial development space in new construction and renovation projects.\nPrior to joining HDA in 2017, she was the Deputy Executive Director of Mutual Housing Association of New York, an non-profit affordable housing developer, owner, and manager with a portfolio over 1,500 units of affordable housing. She received a Bachelor’s in Economics and a Bachelor’s in Urban Planning from the University of Michigan and a Masters of Business Administration from the Massachusetts Institute of Technology. \nDuring her tenure at HDAdvisors she served as Maggie Walker Community Land Trust’s CEO, Virginia Statewide Community Land Trust’s CEO and HousingForward’s Co-Executive Director."
-  },
-  {
-    "objectID": "staff/kendra.html",
-    "href": "staff/kendra.html",
-    "title": "HDAdvisors",
+    "objectID": "services/policy.html",
+    "href": "services/policy.html",
+    "title": "policy",
     "section": "",
-    "text": "Kendra has a background in…"
+    "text": "HDAdvisors develops innovative housing programs and policies tailored to specific community needs and market conditions. We identify best practices from across the country and adapt them to local contexts, ensuring that new initiatives build on proven models while responding to unique local circumstances. Our design process incorporates input from multiple stakeholders and addresses implementation considerations from the outset. We create detailed program guidelines, application materials, and evaluation frameworks that support efficient administration while achieving intended outcomes. Our approach emphasizes programs that are financially sustainable, administratively feasible, and responsive to evolving community needs."
   },
   {
-    "objectID": "staff/kendra.html#kendra-mamula",
-    "href": "staff/kendra.html#kendra-mamula",
-    "title": "HDAdvisors",
+    "objectID": "services/development.html",
+    "href": "services/development.html",
+    "title": "development",
     "section": "",
-    "text": "Kendra has a background in…"
+    "text": "Our team guides clients through every phase of the development process, from initial concept to project completion. We assist with site selection, zoning analysis, architectural coordination, construction oversight, and lease-up planning. Drawing on decades of hands-on development experience, we anticipate challenges before they arise and create realistic timelines and budgets that account for the complexities of affordable housing development. Our approach emphasizes long-term sustainability while meeting immediate community needs."
   }
 ]
