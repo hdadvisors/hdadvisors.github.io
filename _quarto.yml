@@ -8,6 +8,7 @@ website:
   title: "HDAdvisors"
   description: "Affordable Housing Consulting"
   site-url: https://hdadvisors.net
+  sitemap: true
   favicon: images/favicon.png
   page-navigation: false
   
@@ -78,3 +79,4 @@ format:
     margin-bottom: 0px          # Remove bottom margin
     smooth-scroll: true         # Enable smooth scrolling
     code-link: true             # Clickable code links
+    template: _template.html
