@@ -136,24 +136,31 @@ format:
 <div class="full-width-container">
   <div class="content-section">
     <h2 class="text-center">Our Services</h2>
-    <p class="text-center mx-auto" style="max-width: 800px;">HD Advisors offers a wide range of services to help organizations navigate the complex landscape of housing and community development. Our team of experts brings decades of experience to help you achieve your goals.</p>
+    <p class="text-center mx-auto" style="max-width: 800px;">HDAdvisors offers a wide range of services to help organizations navigate the complex landscape of housing and community development. Our team of experts brings decades of experience to help you achieve your goals.</p>
 
     <div class="row mt-5">
       <div class="col-md-4 mb-4">
         <h3>Research & Data Analysis</h3>
-        <p>We provide comprehensive research services to help you understand the housing landscape and make informed decisions.</p>
+        <p>Every successful housing initiative has been built on data, research, and effective policy design. Our planning and analytical experience helps unlock new and innovative solutions. Whether it's GIS mapping, housing market analysis, policy briefs, or data visualization support, we've got you covered.</p>
       </div>
 
       <div class="col-md-4 mb-4">
         <h3>Development Advisory</h3>
-        <p>Navigate the complex process of affordable housing development with our expert guidance.</p>
+        <p>We have decades of experience as real estate developers in affordable housing, commercial, market-rate, and complex mixed-use developments. Our clients have leveraged us to manage their development pipeline, from acquisition to financing to construction oversight to lease-up.</p>
       </div>
 
       <div class="col-md-4 mb-4">
         <h3>Capacity Building</h3>
-        <p>We help organizations build the internal capacity needed to effectively deliver and sustain affordable housing initiatives.</p>
+        <p>Our collective experience in affordable housing comes from a variety of public and private sector roles. We have helped start and sustain housing organizations across Virginia that have benefited from a fractional staffing model---allowing them to be nimble and take advantage of our wide range of skills.</p>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- SWAM Logo Section -->
+<div class="full-width-container">
+  <div class="content-section text-center">
+    <img src="images/SWAM_LOGO.jpg" alt="SWAM Logo" style="max-width: 250px; margin: 0 auto;">
   </div>
 </div>
 

@@ -1,9 +1,9 @@
 ---
-title: "Your First Blog Post"
+title: "Housing Starts"
 description: "An introduction to our new blog"
 date: "2025-05-10"
 categories: [affordable housing, Richmond]
-image: "featured.jpg"  # Add an image to this directory if desired
+image: "images/rva_logo.png"  # Add an image to this directory if desired
 ---
 
 Welcome to the HDAdvisors blog! This is where we'll share insights on affordable housing trends, policy research, and data visualization.

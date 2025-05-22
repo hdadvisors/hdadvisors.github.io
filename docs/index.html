@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3ee0a10a79b9878ca13c0e9c099801f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -124,6 +124,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -133,6 +137,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="mailto:admin@hdadvisors.net"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="tel:8049159425"> <i class="bi bi-telephone" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -293,24 +302,31 @@ ul.task-list li input[type="checkbox"] {
 <div class="full-width-container">
   <div class="content-section">
     <h2 class="text-center">Our Services</h2>
-    <p class="text-center mx-auto" style="max-width: 800px;">HD Advisors offers a wide range of services to help organizations navigate the complex landscape of housing and community development. Our team of experts brings decades of experience to help you achieve your goals.</p>
+    <p class="text-center mx-auto" style="max-width: 800px;">HDAdvisors offers a wide range of services to help organizations navigate the complex landscape of housing and community development. Our team of experts brings decades of experience to help you achieve your goals.</p>
 
     <div class="row mt-5">
       <div class="col-md-4 mb-4">
         <h3>Research &amp; Data Analysis</h3>
-        <p>We provide comprehensive research services to help you understand the housing landscape and make informed decisions.</p>
+        <p>Every successful housing initiative has been built on data, research, and effective policy design. Our planning and analytical experience helps unlock new and innovative solutions. Whether it's GIS mapping, housing market analysis, policy briefs, or data visualization support, we've got you covered.</p>
       </div>
 
       <div class="col-md-4 mb-4">
         <h3>Development Advisory</h3>
-        <p>Navigate the complex process of affordable housing development with our expert guidance.</p>
+        <p>We have decades of experience as real estate developers in affordable housing, commercial, market-rate, and complex mixed-use developments. Our clients have leveraged us to manage their development pipeline, from acquisition to financing to construction oversight to lease-up.</p>
       </div>
 
       <div class="col-md-4 mb-4">
         <h3>Capacity Building</h3>
-        <p>We help organizations build the internal capacity needed to effectively deliver and sustain affordable housing initiatives.</p>
+        <p>Our collective experience in affordable housing comes from a variety of public and private sector roles. We have helped start and sustain housing organizations across Virginia that have benefited from a fractional staffing model---allowing them to be nimble and take advantage of our wide range of skills.</p>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- SWAM Logo Section -->
+<div class="full-width-container">
+  <div class="content-section text-center">
+    <img src="images/SWAM_LOGO.jpg" alt="SWAM Logo" style="max-width: 250px; margin: 0 auto;">
   </div>
 </div>
 
@@ -402,8 +418,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -514,7 +528,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

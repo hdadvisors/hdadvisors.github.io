@@ -8,7 +8,6 @@ website:
   title: "HDAdvisors"
   description: "Affordable Housing Consulting"
   site-url: https://hdadvisors.net
-  sitemap: true
   favicon: images/favicon.png
   page-navigation: false
   
@@ -43,11 +42,15 @@ website:
             href: services.qmd
       - text: Blog
         href: blog/index.qmd
+      - text: Contact
+        href: contact.qmd
     right:
       - icon: rss
         href: blog/index.xml
       - icon: envelope
         href: "mailto:admin@hdadvisors.net"
+      - icon: telephone
+        href: "tel:8049159425"
       - icon: linkedin
         href: https://www.linkedin.com/company/hdadvisors
       - icon: github
@@ -79,4 +82,3 @@ format:
     margin-bottom: 0px          # Remove bottom margin
     smooth-scroll: true         # Enable smooth scrolling
     code-link: true             # Clickable code links
-    template: _template.html

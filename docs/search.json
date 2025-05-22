@@ -63,6 +63,13 @@
     "text": "President\n\n\nYou should talk to Erica if you need help with real estate finance, tax credits, community land trusts, or more.\nLearn more abut Erica here.\n\n\n\n\n\n\n\n\n\n\n\n\nVice President\n\n\nYou should talk to Jonathan if you need help with housing policy, data, or more.\nLearn more abut Jonathan here.\n\n\n\n\n\n\n\n\n\n\n\n\nPosition\n\n\nYou should talk to Eric if you need help with pre-development, housing research, survey design, data, or more.\nLearn more abut Eric here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSenior Associate\n\n\nYou should talk to Amelie if you need help with housing program design, community land trusts, or more. By the way, it’s Amelie like family.\nLearn more abut Amelie here.\n\n\n\n\n\n\n\n\n\n\n\n\nSenior Associate\n\n\nYou should talk to Maria if you need help with housing policy, data analysis, real estate development, or more.\nLearn more abut Maria here.\n\n\n\n\n\n\n\n\n\n\n\n\nAdministrative Assistant\n\n\nKendra helps us with managing our schedules, handling communications, entering data, and maintaining our office.\nLearn more abut Kendra here."
   },
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "HDAdvisors",
+    "section": "",
+    "text": "We’re here to help with your affordable housing and community development needs."
+  },
+  {
     "objectID": "services.html",
     "href": "services.html",
     "title": "HDAdvisors",
@@ -240,14 +247,14 @@
   {
     "objectID": "blog/posts/2025-05-10/index.html",
     "href": "blog/posts/2025-05-10/index.html",
-    "title": "Your First Blog Post",
+    "title": "Housing Starts",
     "section": "",
     "text": "Welcome to the HDAdvisors blog! This is where we’ll share insights on affordable housing trends, policy research, and data visualization."
   },
   {
     "objectID": "blog/posts/2025-05-10/index.html#example-r-code",
     "href": "blog/posts/2025-05-10/index.html#example-r-code",
-    "title": "Your First Blog Post",
+    "title": "Housing Starts",
     "section": "Example R Code",
     "text": "Example R Code\n\nCodelibrary(ggplot2)\nlibrary(dplyr)\n\n# Sample data - replace with your actual data\nhousing_data &lt;- data.frame(\n  year = 2015:2025,\n  median_price = c(220000, 230000, 245000, 260000, 275000, \n                  292000, 325000, 375000, 400000, 410000, 415000)\n)\n\n# Create a visualization\nggplot(housing_data, aes(x = year, y = median_price)) +\n  geom_line(color = \"#2C3E50\", size = 1.2) +\n  geom_point(color = \"#E74C3C\", size = 3) +\n  scale_y_continuous(labels = scales::dollar) +\n  theme_minimal() +\n  labs(\n    title = \"Richmond Area Housing Price Trends\",\n    subtitle = \"Median home prices have nearly doubled over the past decade\",\n    x = \"Year\",\n    y = \"Median Price\"\n  )\n\n\n\nExample visualization"
   },
