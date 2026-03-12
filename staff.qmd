@@ -63,28 +63,6 @@ You should talk to Jonathan if you need help with housing policy, data, or more.
 :::
 :::
 
-::: {.col-md-4}
-::: {.staff .listing-box.has-image}
-::: {.staff .listing-box-image}
-![](images/team/eric.jpg){.listing-box-image}
-:::
-
-::: {.staff .listing-box-content}
-### Eric Mai {.listing-box-title}
-
-::: {.listing-box-subtitle}
-Vice President
-:::
-
-::: {.listing-box-body}
-You should talk to Eric if you need help with pre-development, housing research, survey design, data, or more.
-
-[Learn more abut Eric here.](./staff/eric.html)
-
-:::
-:::
-:::
-:::
 :::
 :::
 
